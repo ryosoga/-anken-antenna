@@ -1,4 +1,5 @@
 import hashlib
+import re
 import warnings
 import requests
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
@@ -13,7 +14,6 @@ PICKUP_KEYWORDS = [
 ]
 
 # 二次フィルタ：プロポーザル・企画提案であることを確認するキーワード（必須）
-# タイトルまたはURLにいずれか1つ含まれていなければ除外
 PROPOSAL_CONFIRM_KEYWORDS = [
     "プロポーザル", "企画提案", "企画競争", "提案競技", "提案公募", "公募型",
 ]
@@ -50,17 +50,45 @@ EXCLUDE_PATTERNS = [
     # 指名競争入札（プロポーザルではない）
     "指名競争入札の参加者を募集", "簡易公募型指名競争入札", "公募型指名競争入札",
     # 募集終了・結果公表済み
-    "【審査結果】",
+    "【審査結果】", "【募集終了】",
     "事業者の決定について", "事業者を選定", "事業者が決定",
     "候補者を選定しました",
     "審査結果を公表", "審査結果公表中", "審査結果を掲載",
-    r"（審査結果公表）",
+    r"[（(]審査結果公表[）)]", r"[（(]審査結果[）)]",
     "選定結果", "採択結果", "採択者の決定",
     r"（選考結果）",
     "の結果について$",
+    "審査結果について$", "プロポーザル審査結果について$",
+    r"（終了）$",
+    "を実施しました$", "プロポーザルを実施しました$",
     "結果を公表しました", "終了しました", "プロポーザルは終了",
     "落札者", "契約締結",
 ]
+
+# このパターンに一致するタイトルは「一覧ページ」と判定し、
+# そのURLをもう1段階スクレイプして個別案件を取得する
+INDEX_PAGE_PATTERNS = [
+    r"^プロポーザル（提案競技）$",
+    r"^公募型プロポーザル$",
+    r"^プロポーザル方式による発注のお知らせ$",
+    r"^プロポーザル情報$",
+    r"^プロポーザル$",
+    r".{1,30}におけるプロポーザルの実施$",
+    r"プロポーザル.{0,10}一覧",
+    r"^業務委託.{0,15}（入札・契約）",
+    r"入札・契約情報$",
+    r"調達情報$",
+    r"企画競争情報$",
+    r"企画競争情報（.{1,20}）$",
+]
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    )
+}
 
 
 def _make_id(url: str) -> str:
@@ -68,72 +96,84 @@ def _make_id(url: str) -> str:
 
 
 def _is_relevant_link(text: str, url: str) -> bool:
-    import re
     if not text or len(text) < 8 or len(text) > 200:
         return False
     if text in SKIP_TEXTS:
         return False
-    # 除外パターンにマッチしたら捨てる
     for pat in EXCLUDE_PATTERNS:
         if re.search(pat, text):
             return False
     combined = text + url
-    # 一次フィルタ：委託・入札系キーワードが含まれること
     if not any(kw in combined for kw in PICKUP_KEYWORDS):
         return False
-    # 二次フィルタ：プロポーザル・企画提案であることが明示されていること
-    # → 灯油調達・設備工事・物品賃貸借など、委託以外の調達を弾く
     return any(kw in combined for kw in PROPOSAL_CONFIRM_KEYWORDS)
 
 
-def scrape_site(site: dict) -> list[dict]:
-    items = []
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/124.0.0.0 Safari/537.36"
-        )
-    }
+def _is_index_page(title: str) -> bool:
+    """取得したリンクが一覧ページかどうかを判定する"""
+    return any(re.search(pat, title) for pat in INDEX_PAGE_PATTERNS)
+
+
+def _fetch_links(url: str, base_host: str) -> list[tuple[str, str]]:
+    """urlを取得してリンク一覧（text, full_url）を返す。失敗時は空リスト"""
     try:
-        resp = requests.get(site["url"], headers=headers, timeout=20)
+        resp = requests.get(url, headers=HEADERS, timeout=20)
         resp.raise_for_status()
         resp.encoding = resp.apparent_encoding
     except Exception as e:
-        print(f"  ⚠️  取得失敗: {e}")
+        print(f"    ⚠️  取得失敗: {e}")
         return []
 
     soup = BeautifulSoup(resp.text, "lxml")
-    base_host = urlparse(site["base_url"]).netloc
-
-    seen_urls: set[str] = set()
-    for a_tag in soup.find_all("a", href=True):
-        text = a_tag.get_text(separator=" ", strip=True)
-        href = a_tag["href"].strip()
+    seen = set()
+    links = []
+    for a in soup.find_all("a", href=True):
+        text = a.get_text(separator=" ", strip=True)
+        href = a["href"].strip()
         if not href or href.startswith("#") or href.startswith("javascript"):
             continue
+        full_url = urljoin(url, href)
+        if urlparse(full_url).netloc != base_host:
+            continue
+        if full_url in seen or full_url.lower().endswith(".pdf"):
+            continue
+        seen.add(full_url)
+        links.append((text, full_url))
+    return links
 
-        full_url = urljoin(site["url"], href)
-        link_host = urlparse(full_url).netloc
 
-        # 同一ドメインのリンクのみ対象
-        if link_host != base_host:
+def scrape_site(site: dict, seen_ids: set, depth: int = 0) -> list[dict]:
+    """
+    siteをスクレイプして案件リストを返す。
+    depth=0 のとき、一覧ページと判定したリンクは再帰的にスクレイプする（depth=1まで）。
+    """
+    base_host = urlparse(site["base_url"]).netloc
+    links = _fetch_links(site["url"], base_host)
+    items = []
+
+    for text, full_url in links:
+        uid = _make_id(full_url)
+        if uid in seen_ids:
             continue
-        if full_url in seen_urls:
-            continue
-        if full_url.lower().endswith('.pdf'):
-            continue
-        seen_urls.add(full_url)
 
         if _is_relevant_link(text, full_url):
+            seen_ids.add(uid)
             items.append({
-                "id": _make_id(full_url),
-                "title": text,
-                "url": full_url,
-                "site_name": site["name"],
+                "id":         uid,
+                "title":      text,
+                "url":        full_url,
+                "site_name":  site["name"],
                 "prefecture": site["prefecture"],
-                "category": site["category"],
+                "category":   site["category"],
             })
+
+            # 一覧ページと判定したら1段階潜る
+            if depth == 0 and _is_index_page(text):
+                sub_site = {**site, "url": full_url}
+                sub_items = scrape_site(sub_site, seen_ids, depth=1)
+                if sub_items:
+                    print(f"      ↳ 一覧ページ深掘り: {len(sub_items)} 件追加")
+                items.extend(sub_items)
 
     return items
 
@@ -144,12 +184,8 @@ def scrape_all_sites(sites: list[dict]) -> list[dict]:
 
     for site in sites:
         print(f"  🔍 {site['name']}")
-        items = scrape_site(site)
-        # グローバル重複除去
-        unique = [i for i in items if i["id"] not in seen_ids]
-        for i in unique:
-            seen_ids.add(i["id"])
-        print(f"     → {len(unique)} 件")
-        all_items.extend(unique)
+        items = scrape_site(site, seen_ids, depth=0)
+        print(f"     → {len(items)} 件")
+        all_items.extend(items)
 
     return all_items

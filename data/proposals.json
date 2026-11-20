@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-20 16:10",
-  "total": 17,
+  "updated_at": "2026-11-20 16:18",
+  "total": 30,
   "proposals": [
     {
       "title": "【観光振興課】テレビ番組等を活用した石見銀山観光プロモーション業務にかかる提案競技について",
@@ -32,6 +32,14 @@
       "prefecture": "島根県",
       "org": "浜田市 入札・調達情報",
       "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "「浜田市障がい福祉計画（第8期）・浜田市障がい児福祉計画（第4期）策定業務委託」事業者選定に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.hamada.shimane.jp/www/contents/1780464838132/index.html",
+      "prefecture": "島根県",
+      "org": "浜田市 入札・調達情報",
+      "category": "福祉・医療・健康",
       "is_updated": false
     },
     {
@@ -115,6 +123,70 @@
       "is_updated": false
     },
     {
+      "title": "防府競輪場選手宿舎業務に係る公募型プロポーザル​",
+      "url": "https://www.city.hofu.yamaguchi.jp/soshiki/12/syukusya-kettei.html",
+      "prefecture": "山口県",
+      "org": "防府市 入札情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "防府市民設民営放課後児童クラブ運営事業者選定に係る公募型プロポーザル",
+      "url": "https://www.city.hofu.yamaguchi.jp/soshiki/19/houkagojidokurabu-puropo.html",
+      "prefecture": "山口県",
+      "org": "防府市 入札情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "防府市一次産業拠点整備基本設計・実施設計業務に関する公募型プロポーザル",
+      "url": "https://www.city.hofu.yamaguchi.jp/soshiki/22/itijisangyokyotenkihonpuro.html",
+      "prefecture": "山口県",
+      "org": "防府市 入札情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "防府市ひきこもり支援推進業務に係る公募型プロポーザル",
+      "url": "https://www.city.hofu.yamaguchi.jp/soshiki/59/proposal-hikikomori2026.html",
+      "prefecture": "山口県",
+      "org": "防府市 入札情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "防府競輪活性化イベント・ファンサービス業務に係る公募型プロポーザル",
+      "url": "https://www.city.hofu.yamaguchi.jp/soshiki/12/propo-event.html",
+      "prefecture": "山口県",
+      "org": "防府市 入札情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "電子契約システム導入事業に関する公募型プロポーザル",
+      "url": "https://www.city.hofu.yamaguchi.jp/soshiki/118/kekka.html",
+      "prefecture": "山口県",
+      "org": "防府市 入札情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "デジタル人材育成事業に関する公募型プロポーザル",
+      "url": "https://www.city.hofu.yamaguchi.jp/soshiki/24/dejitarujinzaijigyou.html",
+      "prefecture": "山口県",
+      "org": "防府市 入札情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【再公募】防府市基幹相談支援センター運営業務に係る公募型プロポーザル",
+      "url": "https://www.city.hofu.yamaguchi.jp/soshiki/59/proposal-kikan2026-02.html",
+      "prefecture": "山口県",
+      "org": "防府市 入札情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
       "title": "令和9・10・11年度　長門市生活困窮者自立相談支援事業及び長門市生活困窮者家計改善支援事業業務委託プロポーザル（公募型）の実施について",
       "url": "https://www.city.nagato.yamaguchi.jp/soshiki/9/51418.html",
       "prefecture": "山口県",
@@ -136,6 +208,38 @@
       "prefecture": "山口県",
       "org": "山陽小野田市 入札情報",
       "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "「山陽小野田市水道事業マッピングシステム構築業務委託」（公募型プロポーザル）の実施について（更新）",
+      "url": "https://www.city.sanyo-onoda.lg.jp/site/suidou/puropo-zaru-mappingu.html",
+      "prefecture": "山口県",
+      "org": "山陽小野田市 入札情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "山陽小野田市公立大学法人会計監査人選任候補者の選定に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/6/kannsaninnsennninnkouhousyano.html",
+      "prefecture": "山口県",
+      "org": "山陽小野田市 入札情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "「山陽小野田市デジタルデバイド対策業務」公募型プロポーザルの実施に係る質問に対する回答",
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/86/r5sumahokouzakaitou.html",
+      "prefecture": "山口県",
+      "org": "山陽小野田市 入札情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "「山陽小野田市デジタルデバイド対策業務」の受託業者募集（公募型プロポーザル）について",
+      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/86/r5sumahokouza.html",
+      "prefecture": "山口県",
+      "org": "山陽小野田市 入札情報",
+      "category": "IT・DX・システム開発",
       "is_updated": false
     }
   ]
