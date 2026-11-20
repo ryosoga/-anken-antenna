@@ -1,0 +1,33 @@
+name: Daily Scrape
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 毎朝9時JST（= UTC 0時）
+  workflow_dispatch:        # GitHub画面から手動実行も可能
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper/run.py
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'data: update proposals [skip ci]'
+          file_pattern: 'data/proposals.json'

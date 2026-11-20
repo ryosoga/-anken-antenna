@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>案件一覧｜案件アンテナ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-primary:       #1A4D3A;
+      --color-primary-mid:   #2E7D57;
+      --color-primary-light: #4CAF80;
+      --color-accent:        #F5A623;
+      --color-bg:            #F4F6F4;
+      --color-bg-card:       #FFFFFF;
+      --color-text:          #1A2A22;
+      --color-text-muted:    #5A7060;
+      --color-border:        #D8E8DF;
+      --font-base: 'Noto Sans JP', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--font-base); background: var(--color-bg); color: var(--color-text); -webkit-font-smoothing: antialiased; }
+    a { text-decoration: none; color: inherit; }
+
+    /* ── Header ── */
+    .app-header {
+      background: var(--color-primary);
+      color: #fff;
+      padding: 0 24px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .app-logo { font-weight: 900; font-size: 1rem; display: flex; align-items: center; gap: 8px; }
+    .app-logo-icon { background: var(--color-accent); color: var(--color-primary); width: 28px; height: 28px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: .85rem; font-weight: 900; }
+    .header-right { display: flex; align-items: center; gap: 12px; }
+    .plan-badge { background: rgba(245,166,35,.2); color: var(--color-accent); font-size: .72rem; font-weight: 700; padding: 3px 10px; border-radius: 100px; font-family: var(--font-mono); }
+    .upgrade-btn { background: var(--color-accent); color: var(--color-primary); font-size: .8rem; font-weight: 700; padding: 6px 14px; border-radius: 100px; cursor: pointer; border: none; }
+
+    /* ── Layout ── */
+    .app-body { display: flex; min-height: calc(100vh - 56px); }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      width: 240px;
+      flex-shrink: 0;
+      background: #fff;
+      border-right: 1px solid var(--color-border);
+      padding: 20px 16px;
+      position: sticky;
+      top: 56px;
+      height: calc(100vh - 56px);
+      overflow-y: auto;
+    }
+    .sidebar-section { margin-bottom: 24px; }
+    .sidebar-label {
+      font-size: .7rem;
+      font-weight: 700;
+      color: var(--color-text-muted);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font-family: var(--font-mono);
+      margin-bottom: 10px;
+    }
+    .filter-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: .88rem;
+      transition: background .15s;
+      user-select: none;
+    }
+    .filter-item:hover { background: var(--color-bg); }
+    .filter-item.active { background: rgba(76,175,128,.12); color: var(--color-primary); font-weight: 700; }
+    .filter-item input[type="checkbox"] { accent-color: var(--color-primary-mid); width: 15px; height: 15px; flex-shrink: 0; }
+    .filter-count { margin-left: auto; font-size: .72rem; color: var(--color-text-muted); font-family: var(--font-mono); }
+
+    /* ── Updated time ── */
+    .updated-at {
+      font-size: .7rem;
+      color: var(--color-text-muted);
+      font-family: var(--font-mono);
+      padding: 0 8px 16px;
+      border-bottom: 1px solid var(--color-border);
+      margin-bottom: 16px;
+    }
+
+    /* ── Main ── */
+    .main { flex: 1; padding: 24px; max-width: 860px; }
+
+    /* ── Toolbar ── */
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .toolbar-left { display: flex; align-items: center; gap: 12px; }
+    .result-count { font-size: .9rem; color: var(--color-text-muted); }
+    .result-count strong { color: var(--color-text); font-weight: 700; }
+    .tab-group { display: flex; background: var(--color-border); border-radius: 8px; padding: 3px; }
+    .tab-btn { padding: 5px 14px; border-radius: 6px; font-size: .82rem; font-weight: 500; cursor: pointer; border: none; background: none; color: var(--color-text-muted); transition: all .15s; }
+    .tab-btn.active { background: #fff; color: var(--color-primary); font-weight: 700; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+
+    /* ── Upgrade Banner ── */
+    .upgrade-banner {
+      background: linear-gradient(135deg, var(--color-primary) 0%, #0D3326 100%);
+      color: #fff;
+      border-radius: 12px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .upgrade-banner p { font-size: .88rem; line-height: 1.5; color: rgba(255,255,255,.85); }
+    .upgrade-banner strong { color: var(--color-accent); }
+    .upgrade-banner-btn { background: var(--color-accent); color: var(--color-primary); font-size: .82rem; font-weight: 700; padding: 8px 18px; border-radius: 100px; white-space: nowrap; flex-shrink: 0; }
+
+    /* ── Cards ── */
+    .card-list { display: flex; flex-direction: column; gap: 12px; }
+    .card {
+      background: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: 12px;
+      padding: 20px;
+      transition: box-shadow .2s, border-color .2s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(26,77,58,.1); border-color: var(--color-primary-light); }
+    .card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+    .card-title { font-size: .95rem; font-weight: 700; line-height: 1.4; flex: 1; }
+    .card-title a:hover { color: var(--color-primary-mid); }
+    .card-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .meta-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: .75rem;
+      color: var(--color-text-muted);
+      background: var(--color-bg);
+      padding: 3px 10px;
+      border-radius: 100px;
+    }
+    .meta-chip-pref { background: rgba(76,175,128,.1); color: var(--color-primary); font-weight: 500; }
+    .meta-chip-cat { background: rgba(26,77,58,.07); }
+
+    .ai-match-locked {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(26,77,58,.04);
+      border: 1px dashed var(--color-border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: .82rem;
+      color: var(--color-text-muted);
+      margin-top: 12px;
+    }
+    .ai-match-locked a { color: var(--color-primary-mid); font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+
+    .card-link-row { display: flex; justify-content: flex-end; margin-top: 12px; }
+    .card-link { font-size: .8rem; color: var(--color-primary-mid); font-weight: 500; display: flex; align-items: center; gap: 4px; }
+    .card-link:hover { color: var(--color-primary); }
+
+    /* ── Pagination ── */
+    .pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 32px;
+      flex-wrap: wrap;
+    }
+    .page-btn {
+      min-width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      border: 1px solid var(--color-border);
+      background: #fff;
+      color: var(--color-text-muted);
+      font-size: .85rem;
+      font-weight: 500;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 10px;
+      transition: all .15s;
+    }
+    .page-btn:hover { border-color: var(--color-primary-light); color: var(--color-primary); }
+    .page-btn.active { background: var(--color-primary); color: #fff; border-color: var(--color-primary); font-weight: 700; }
+    .page-btn:disabled { opacity: .4; cursor: default; }
+
+    /* ── Loading ── */
+    .loading { text-align: center; padding: 60px 20px; color: var(--color-text-muted); font-size: .9rem; }
+    .spinner { display: inline-block; width: 28px; height: 28px; border: 3px solid var(--color-border); border-top-color: var(--color-primary-mid); border-radius: 50%; animation: spin .8s linear infinite; margin-bottom: 12px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Empty ── */
+    .empty { text-align: center; padding: 60px 20px; color: var(--color-text-muted); }
+
+    @media (max-width: 768px) {
+      .sidebar { display: none; }
+      .main { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="app-header">
+    <div class="app-logo">
+      <div class="app-logo-icon">📡</div>
+      案件アンテナ
+    </div>
+    <div class="header-right">
+      <span class="plan-badge">FREE プラン</span>
+      <button class="upgrade-btn" onclick="location.href='index.html#pricing'">アップグレード</button>
+    </div>
+  </header>
+
+  <div class="app-body">
+
+    <aside class="sidebar">
+      <div class="updated-at" id="updated-at">読み込み中...</div>
+
+      <div class="sidebar-section">
+        <div class="sidebar-label">エリア</div>
+        <div id="pref-filters"></div>
+      </div>
+
+      <div class="sidebar-section">
+        <div class="sidebar-label">カテゴリ</div>
+        <div id="cat-filters"></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="toolbar">
+        <div class="toolbar-left">
+          <p class="result-count" id="result-count">読み込み中...</p>
+          <div class="tab-group">
+            <button class="tab-btn active" id="tab-all" onclick="switchTab('all')">全案件</button>
+            <button class="tab-btn" id="tab-ai" onclick="switchTab('ai')">AI適合のみ 🔒</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="upgrade-banner">
+        <p>🤖 <strong>AIマッチング機能</strong>が使えていません。自社の事業内容を登録すると、この中から「応募すべき案件」だけを自動で選んでメール通知します。</p>
+        <a href="index.html#pricing" class="upgrade-banner-btn">1,980円/月で試す →</a>
+      </div>
+
+      <div id="card-list" class="card-list">
+        <div class="loading"><div class="spinner"></div><br>案件データを読み込んでいます...</div>
+      </div>
+
+      <div class="empty" id="empty-state" style="display:none;">
+        <p>該当する案件が見つかりませんでした。<br>フィルターを変更してみてください。</p>
+      </div>
+
+      <div class="pagination" id="pagination"></div>
+    </main>
+  </div>
+
+  <script>
+    const PER_PAGE = 20;
+
+    let ALL_PROPOSALS = [];
+    let activePref = null;
+    let activeCat  = null;
+    let currentPage = 1;
+
+    const PREFS = ['島根県','鳥取県','広島県','岡山県','山口県'];
+    const CATS  = [
+      '映像・動画・PR・広報',
+      'まちづくり・地域活性化',
+      '採用・移住定住・人材',
+      'IT・DX・システム開発',
+      'コンサル・調査・研究',
+      '観光・文化・イベント',
+      '教育・研修・ワークショップ',
+      '福祉・医療・健康',
+      '建築・設計・土木',
+      'その他・委託全般',
+    ];
+
+    // ── データ読み込み ──
+    fetch('./data/proposals.json')
+      .then(r => r.json())
+      .then(data => {
+        ALL_PROPOSALS = data.proposals;
+        document.getElementById('updated-at').textContent = `更新: ${data.updated_at}`;
+        buildFilters();
+        render();
+      })
+      .catch(() => {
+        document.getElementById('card-list').innerHTML =
+          '<div class="empty"><p>データの読み込みに失敗しました。</p></div>';
+      });
+
+    // ── フィルターUI構築 ──
+    function buildFilters() {
+      buildFilterGroup('pref-filters', PREFS, 'pref');
+      buildFilterGroup('cat-filters',  CATS,  'cat');
+    }
+
+    function buildFilterGroup(containerId, values, type) {
+      const container = document.getElementById(containerId);
+      // 「全て」
+      const allItem = makeFilterItem('全て', null, type, true);
+      container.appendChild(allItem);
+      values.forEach(val => {
+        const count = ALL_PROPOSALS.filter(p => p[type === 'pref' ? 'prefecture' : 'category'] === val).length;
+        if (count > 0) container.appendChild(makeFilterItem(val, val, type, false, count));
+      });
+    }
+
+    function makeFilterItem(label, value, type, isAll, count) {
+      const div = document.createElement('label');
+      div.className = 'filter-item' + (isAll ? ' active' : '');
+      div.dataset.type  = type;
+      div.dataset.value = value || '';
+
+      const cb = document.createElement('input');
+      cb.type = 'checkbox';
+      cb.checked = isAll;
+
+      const text = document.createTextNode(' ' + label);
+      div.appendChild(cb);
+      div.appendChild(text);
+
+      if (count !== undefined) {
+        const span = document.createElement('span');
+        span.className = 'filter-count';
+        span.id = `count-${type}-${(value || 'all').replace(/[・\s]/g, '_')}`;
+        span.textContent = count;
+        div.appendChild(span);
+      } else {
+        const span = document.createElement('span');
+        span.className = 'filter-count';
+        span.id = `count-${type}-all`;
+        span.textContent = ALL_PROPOSALS.length;
+        div.appendChild(span);
+      }
+
+      div.addEventListener('click', () => {
+        if (type === 'pref') {
+          activePref = (activePref === value) ? null : value;
+        } else {
+          activeCat = (activeCat === value) ? null : value;
+        }
+        currentPage = 1;
+        render();
+      });
+
+      return div;
+    }
+
+    // ── フィルター適用 ──
+    function getFiltered() {
+      return ALL_PROPOSALS.filter(p => {
+        const prefOk = activePref === null || p.prefecture === activePref;
+        const catOk  = activeCat  === null || p.category  === activeCat;
+        return prefOk && catOk;
+      });
+    }
+
+    // ── カードHTML ──
+    function cardHTML(p) {
+      return `
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">
+              <a href="${p.url}" target="_blank" rel="noopener">${escHtml(p.title)}</a>
+            </div>
+          </div>
+          <div class="card-meta">
+            <span class="meta-chip meta-chip-pref">📍 ${escHtml(p.prefecture)}</span>
+            <span class="meta-chip">${escHtml(p.org)}</span>
+            <span class="meta-chip meta-chip-cat">${escHtml(p.category)}</span>
+          </div>
+          <div class="ai-match-locked">
+            🔒 AI分析結果はプロプランで確認できます。
+            <a href="index.html#pricing">1,980円/月で試す →</a>
+          </div>
+          <div class="card-link-row">
+            <a href="${p.url}" target="_blank" rel="noopener" class="card-link">公募要領を見る →</a>
+          </div>
+        </div>`;
+    }
+
+    function escHtml(s) {
+      return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    // ── 描画 ──
+    function render() {
+      const filtered = getFiltered();
+      const total = filtered.length;
+      const totalPages = Math.max(1, Math.ceil(total / PER_PAGE));
+      currentPage = Math.min(currentPage, totalPages);
+
+      const start = (currentPage - 1) * PER_PAGE;
+      const page  = filtered.slice(start, start + PER_PAGE);
+
+      const list  = document.getElementById('card-list');
+      const empty = document.getElementById('empty-state');
+
+      if (total === 0) {
+        list.innerHTML = '';
+        empty.style.display = 'block';
+      } else {
+        list.innerHTML = page.map(cardHTML).join('');
+        empty.style.display = 'none';
+      }
+
+      document.getElementById('result-count').innerHTML =
+        `<strong>${total.toLocaleString()}件</strong>（${start+1}–${Math.min(start+PER_PAGE,total)}件目）`;
+
+      renderPagination(totalPages);
+      updateSidebarActive();
+    }
+
+    // ── ページネーション ──
+    function renderPagination(totalPages) {
+      const pg = document.getElementById('pagination');
+      if (totalPages <= 1) { pg.innerHTML = ''; return; }
+
+      let html = '';
+      html += `<button class="page-btn" onclick="goPage(${currentPage-1})" ${currentPage===1?'disabled':''}>← 前</button>`;
+
+      const range = pageRange(currentPage, totalPages);
+      range.forEach(p => {
+        if (p === '...') {
+          html += `<span style="padding:0 4px;color:var(--color-text-muted)">…</span>`;
+        } else {
+          html += `<button class="page-btn${p===currentPage?' active':''}" onclick="goPage(${p})">${p}</button>`;
+        }
+      });
+
+      html += `<button class="page-btn" onclick="goPage(${currentPage+1})" ${currentPage===totalPages?'disabled':''}>次 →</button>`;
+      pg.innerHTML = html;
+    }
+
+    function pageRange(cur, total) {
+      if (total <= 7) return Array.from({length:total},(_,i)=>i+1);
+      const pages = [1];
+      if (cur > 3) pages.push('...');
+      for (let i=Math.max(2,cur-1); i<=Math.min(total-1,cur+1); i++) pages.push(i);
+      if (cur < total-2) pages.push('...');
+      pages.push(total);
+      return pages;
+    }
+
+    function goPage(p) {
+      currentPage = p;
+      render();
+      window.scrollTo({top:0, behavior:'smooth'});
+    }
+
+    // ── サイドバーのアクティブ状態更新 ──
+    function updateSidebarActive() {
+      document.querySelectorAll('.filter-item').forEach(item => {
+        const type  = item.dataset.type;
+        const value = item.dataset.value || null;
+        const isActive = type === 'pref'
+          ? activePref === value
+          : activeCat === value;
+        item.classList.toggle('active', isActive);
+        item.querySelector('input').checked = isActive;
+      });
+
+      // カウント更新
+      PREFS.forEach(pref => {
+        const count = ALL_PROPOSALS.filter(p =>
+          p.prefecture === pref && (activeCat === null || p.category === activeCat)
+        ).length;
+        const el = document.getElementById(`count-pref-${pref.replace(/[・\s]/g,'_')}`);
+        if (el) el.textContent = count;
+      });
+      const prefAllEl = document.getElementById('count-pref-all');
+      if (prefAllEl) prefAllEl.textContent = ALL_PROPOSALS.filter(p =>
+        activeCat === null || p.category === activeCat
+      ).length;
+
+      CATS.forEach(cat => {
+        const count = ALL_PROPOSALS.filter(p =>
+          p.category === cat && (activePref === null || p.prefecture === activePref)
+        ).length;
+        const el = document.getElementById(`count-cat-${cat.replace(/[・\s]/g,'_')}`);
+        if (el) el.textContent = count;
+      });
+      const catAllEl = document.getElementById('count-cat-all');
+      if (catAllEl) catAllEl.textContent = ALL_PROPOSALS.filter(p =>
+        activePref === null || p.prefecture === activePref
+      ).length;
+    }
+
+    // ── タブ切り替え ──
+    function switchTab(tab) {
+      if (tab === 'ai') {
+        alert('AI適合マッチング通知はプロプラン（¥1,980/月）の機能です。\n自社の事業内容を登録すると、全案件の中から\nAIが「応募すべき案件」を自動で選定してメール通知します。');
+        return;
+      }
+    }
+  </script>
+
+</body>
+</html>
