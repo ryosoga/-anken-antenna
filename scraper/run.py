@@ -4,6 +4,7 @@ GitHub Actions から毎日実行し、data/proposals.json を更新する
 """
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone, timedelta
 
@@ -15,9 +16,26 @@ from categories import CATEGORIES
 
 JST = timezone(timedelta(hours=9))
 
+# タイトルから除去する「更新情報」の接頭辞・接尾辞パターン
+# 除去後に残ったテキストが元案件タイトル、is_updated=Trueを付ける
+UPDATE_PATTERNS = [
+    r"【更新】",
+    r"【掲載】",
+    r"＞＞",
+    r"《[^》]*》",                        # 《審査結果公表中》など
+    r"〔[^〕]*〕",
+    r"質問に対する回答を(掲載|追加)しました",
+    r"質問への回答を掲載しました",
+    r"回答を掲載しました",
+    r"質問回答を掲載しました",
+    r"掲載しました$",
+    r"を更新しました$",
+    r"について掲載しました$",
+    r"について更新しました$",
+]
+
 
 def classify_category(title: str) -> str:
-    """タイトルのキーワードからカテゴリを判定する"""
     for cat_name, keywords in CATEGORIES.items():
         if any(kw in title for kw in keywords):
             return cat_name
@@ -25,11 +43,26 @@ def classify_category(title: str) -> str:
 
 
 def normalize_prefecture(raw: str) -> str:
-    """'島根県（松江市）' → '島根県' に正規化"""
     for pref in ["島根県", "鳥取県", "広島県", "岡山県", "山口県"]:
         if pref in raw:
             return pref
     return raw
+
+
+def clean_title(raw: str) -> tuple[str, bool]:
+    """更新系テキストを除去してクリーニング済みタイトルと更新フラグを返す"""
+    cleaned = raw
+    is_updated = False
+    for pat in UPDATE_PATTERNS:
+        new = re.sub(pat, "", cleaned).strip()
+        if new != cleaned:
+            is_updated = True
+            cleaned = new
+    # 先頭に孤立した「】」が残った場合（【XXX】の【だけ除去されたケース）を除去
+    cleaned = re.sub(r"^[^【】]*】\s*", "", cleaned) if re.match(r"^[^【】]+】", cleaned) else cleaned
+    # 先頭の空白・記号を除去
+    cleaned = re.sub(r"^[　\s・＞>]+", "", cleaned).strip()
+    return cleaned, is_updated
 
 
 def run():
@@ -47,17 +80,17 @@ def run():
         seen_urls.add(url)
 
         prefecture = normalize_prefecture(item.get("prefecture", ""))
-        category   = classify_category(item["title"])
-
-        # org名: site_nameから県名部分を除いたもの
+        clean, is_updated = clean_title(item["title"])
+        category = classify_category(clean)
         org = item.get("site_name", "")
 
         proposals.append({
-            "title":      item["title"],
+            "title":      clean,
             "url":        url,
             "prefecture": prefecture,
             "org":        org,
             "category":   category,
+            "is_updated": is_updated,
         })
 
     output = {

@@ -156,6 +156,7 @@
     }
     .meta-chip-pref { background: rgba(76,175,128,.1); color: var(--color-primary); font-weight: 500; }
     .meta-chip-cat { background: rgba(26,77,58,.07); }
+    .meta-chip-updated { background: #EFF6FF; color: #1D4ED8; font-weight: 600; }
 
     .ai-match-locked {
       display: flex;
@@ -380,6 +381,9 @@
 
     // ── カードHTML ──
     function cardHTML(p) {
+      const updatedBadge = p.is_updated
+        ? `<span class="meta-chip meta-chip-updated">🔄 情報更新あり</span>`
+        : '';
       return `
         <div class="card">
           <div class="card-header">
@@ -391,6 +395,7 @@
             <span class="meta-chip meta-chip-pref">📍 ${escHtml(p.prefecture)}</span>
             <span class="meta-chip">${escHtml(p.org)}</span>
             <span class="meta-chip meta-chip-cat">${escHtml(p.category)}</span>
+            ${updatedBadge}
           </div>
           <div class="ai-match-locked">
             🔒 AI分析結果はプロプランで確認できます。
