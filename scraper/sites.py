@@ -128,7 +128,7 @@ SITES = [
     # =====================================================
     {
         "name": "鳥取県 入札・調達情報",
-        "url": "https://www.pref.tottori.lg.jp/1304.htm",
+        "url": "https://www.pref.tottori.lg.jp/1326.htm",
         "base_url": "https://www.pref.tottori.lg.jp",
         "prefecture": "鳥取県",
         "category": "プロポーザル・入札",
@@ -424,8 +424,8 @@ SITES = [
     # 岡山県（市）
     # =====================================================
     {
-        "name": "岡山市 入札・契約情報",
-        "url": "https://www.city.okayama.jp/jigyosha/category/5-3-0-0-0-0-0-0-0-0.html",
+        "name": "岡山市 企画競争情報",
+        "url": "https://www.city.okayama.jp/jigyosha/category/5-3-13-1-18-0-0-0-0-0.html",
         "base_url": "https://www.city.okayama.jp",
         "prefecture": "岡山県（岡山市）",
         "category": "プロポーザル・入札",
@@ -437,51 +437,46 @@ SITES = [
         "prefecture": "岡山県（倉敷市）",
         "category": "プロポーザル・入札",
     },
-    {
-        "name": "津山市 入札情報",
-        "url": "https://www.city.tsuyama.lg.jp/city/index.cfm/6,0,61,html",
-        "base_url": "https://www.city.tsuyama.lg.jp",
-        "prefecture": "岡山県（津山市）",
-        "category": "プロポーザル・入札",
-    },
+    # 津山市: JS依存CMSのため一覧ページ取得不可（2026-11時点）
+
     {
         "name": "玉野市 入札情報",
-        "url": "https://www.city.tamano.lg.jp/",
+        "url": "https://www.city.tamano.lg.jp/life/2/15/",
         "base_url": "https://www.city.tamano.lg.jp",
         "prefecture": "岡山県（玉野市）",
         "category": "プロポーザル・入札",
     },
     {
         "name": "笠岡市 入札情報",
-        "url": "https://www.city.kasaoka.okayama.jp/",
+        "url": "https://www.city.kasaoka.okayama.jp/life/2/16/",
         "base_url": "https://www.city.kasaoka.okayama.jp",
         "prefecture": "岡山県（笠岡市）",
         "category": "プロポーザル・入札",
     },
     {
         "name": "井原市 入札情報",
-        "url": "https://www.city.ibara.okayama.jp/",
+        "url": "https://www.city.ibara.okayama.jp/life/4/17/",
         "base_url": "https://www.city.ibara.okayama.jp",
         "prefecture": "岡山県（井原市）",
         "category": "プロポーザル・入札",
     },
     {
         "name": "総社市 入札情報",
-        "url": "https://www.city.soja.okayama.jp/",
+        "url": "https://www.city.soja.okayama.jp/life/5/25/",
         "base_url": "https://www.city.soja.okayama.jp",
         "prefecture": "岡山県（総社市）",
         "category": "プロポーザル・入札",
     },
     {
         "name": "高梁市 入札情報",
-        "url": "https://www.city.takahashi.lg.jp/",
+        "url": "https://www.city.takahashi.lg.jp/life/2/24/104/",
         "base_url": "https://www.city.takahashi.lg.jp",
         "prefecture": "岡山県（高梁市）",
         "category": "プロポーザル・入札",
     },
     {
         "name": "新見市 入札情報",
-        "url": "https://www.city.niimi.okayama.jp/",
+        "url": "https://www.city.niimi.okayama.jp/business/category_top/index/business_category1_7",
         "base_url": "https://www.city.niimi.okayama.jp",
         "prefecture": "岡山県（新見市）",
         "category": "プロポーザル・入札",
@@ -509,14 +504,14 @@ SITES = [
     },
     {
         "name": "真庭市 入札情報",
-        "url": "https://www.city.maniwa.lg.jp/",
+        "url": "https://www.city.maniwa.lg.jp/life/5/26/",
         "base_url": "https://www.city.maniwa.lg.jp",
         "prefecture": "岡山県（真庭市）",
         "category": "プロポーザル・入札",
     },
     {
         "name": "美作市 入札情報",
-        "url": "https://www.city.mimasaka.lg.jp/",
+        "url": "https://www.city.mimasaka.lg.jp/jigyosha/nyusatsu/anken/index.html",
         "base_url": "https://www.city.mimasaka.lg.jp",
         "prefecture": "岡山県（美作市）",
         "category": "プロポーザル・入札",

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-20 17:24",
-  "total": 292,
+  "updated_at": "2026-11-20 17:37",
+  "total": 307,
   "proposals": [
     {
       "title": "【観光振興課】テレビ番組等を活用した石見銀山観光プロモーション業務にかかる提案競技について",
@@ -325,6 +325,38 @@
     {
       "title": "【調達公告】「オートモーティブワールド2027」鳥取県ブース出展等業務委託公募型プロポーザルの実施",
       "url": "https://www.pref.tottori.lg.jp/330873.htm",
+      "prefecture": "鳥取県",
+      "org": "鳥取県 入札・調達情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【調達公告】理工系等の女性が少ない分野の魅力発信ツール作成及び情報発信等業務委託プロポーザル",
+      "url": "https://www.pref.tottori.lg.jp/330428.htm",
+      "prefecture": "鳥取県",
+      "org": "鳥取県 入札・調達情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和８年度取引先との価格転嫁個別支援・好事例横展開促進業務",
+      "url": "https://www.pref.tottori.lg.jp/330309.htm",
+      "prefecture": "鳥取県",
+      "org": "鳥取県 入札・調達情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度とっとりGXバイオプラットフォーム形成推進業務",
+      "url": "https://www.pref.tottori.lg.jp/329856.htm",
+      "prefecture": "鳥取県",
+      "org": "鳥取県 入札・調達情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【調達公告】令和８年度鳥取県宇宙産業参入基盤強化事業企画運営業務プロポーザルの実施",
+      "url": "https://www.pref.tottori.lg.jp/329577.htm",
       "prefecture": "鳥取県",
       "org": "鳥取県 入札・調達情報",
       "category": "その他・委託全般",
@@ -1563,6 +1595,38 @@
       "is_updated": false
     },
     {
+      "title": "令和9年度岡山市学力アセス業務委託に係る企画競争の実施について",
+      "url": "https://www.city.okayama.jp/jigyosha/0000066250.html",
+      "prefecture": "岡山県",
+      "org": "岡山市 企画競争情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "岡山市立放課後児童クラブ利用料等債権回収等業務に係る企画競争の実施について",
+      "url": "https://www.city.okayama.jp/jigyosha/0000086832.html",
+      "prefecture": "岡山県",
+      "org": "岡山市 企画競争情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "サンノゼ市桃太郎像再設置プロジェクト動画制作業務委託に係る企画競争の実施について",
+      "url": "https://www.city.okayama.jp/jigyosha/0000086398.html",
+      "prefecture": "岡山県",
+      "org": "岡山市 企画競争情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "岡山市中区役所番号案内表示機及び広告付行政情報案内モニター設置事業に係る企画競争の実施について（質問及び回答）",
+      "url": "https://www.city.okayama.jp/jigyosha/0000033739.html",
+      "prefecture": "岡山県",
+      "org": "岡山市 企画競争情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
       "title": "倉敷市アンテナショップ「クラシキ」店舗運営業務にかかるプロポーザルを実施します。",
       "url": "https://www.city.kurashiki.okayama.jp/business/contract/1013065/1014314/1027756.html",
       "prefecture": "岡山県",
@@ -1619,10 +1683,50 @@
       "is_updated": false
     },
     {
-      "title": "「井原市外国語指導助手派遣業務」公募型プロポーザルの実施について",
-      "url": "https://www.city.ibara.okayama.jp/soshiki/33/22038.html",
+      "title": "玉野競輪場施設再整備支援業務委託に関するプロポーザルについて",
+      "url": "https://www.city.tamano.lg.jp/soshiki/18/56875.html",
       "prefecture": "岡山県",
-      "org": "井原市 入札情報",
+      "org": "玉野市 入札情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "入札・プロポーザル情報",
+      "url": "https://www.city.tamano.lg.jp/life/2/15/60/",
+      "prefecture": "岡山県",
+      "org": "玉野市 入札情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "旧里庄清掃工場解体事業に係る調査及び発注支援業務の指名型プロポーザル方式に係る手続き開始について",
+      "url": "https://www.city.kasaoka.okayama.jp/site/seikan/78444.html",
+      "prefecture": "岡山県",
+      "org": "笠岡市 入札情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】入札契約関連事務システム導入業務",
+      "url": "https://www.city.niimi.okayama.jp/business/business_detail/index/7913",
+      "prefecture": "岡山県",
+      "org": "新見市 入札情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】てったせせらぎ公園遊具等更新事業",
+      "url": "https://www.city.niimi.okayama.jp/business/business_detail/index/7798",
+      "prefecture": "岡山県",
+      "org": "新見市 入札情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】新見市憩いとふれあいの公園遊具更新事業",
+      "url": "https://www.city.niimi.okayama.jp/business/business_detail/index/6914",
+      "prefecture": "岡山県",
+      "org": "新見市 入札情報",
       "category": "その他・委託全般",
       "is_updated": false
     },
@@ -1632,6 +1736,22 @@
       "prefecture": "岡山県",
       "org": "瀬戸内市 入札情報",
       "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "「男女共同参画社会構造調査業務」公募型プロポーザルに関する質問に対する回答",
+      "url": "https://www.city.maniwa.lg.jp/soshiki/12/119442.html",
+      "prefecture": "岡山県",
+      "org": "真庭市 入札情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "公共施設への太陽光発電設備等設置及び電力供給業務　プロポーザル実施について",
+      "url": "https://www.city.maniwa.lg.jp/soshiki/150/106368.html",
+      "prefecture": "岡山県",
+      "org": "真庭市 入札情報",
+      "category": "建築・設計・土木",
       "is_updated": false
     },
     {
