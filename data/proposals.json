@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-20 16:49",
-  "total": 171,
+  "updated_at": "2026-11-20 17:09",
+  "total": 385,
   "proposals": [
     {
       "title": "【観光振興課】テレビ番組等を活用した石見銀山観光プロモーション業務にかかる提案競技について",
@@ -19,11 +19,283 @@
       "is_updated": true
     },
     {
-      "title": "【中央病院】設備運転管理業務委託に係る提案競技の実施",
-      "url": "https://www.pref.shimane.lg.jp/bid_info/bid_spch/R9setsubiunten.html",
+      "title": "保育所入所管理業務改善委託プロポーザル",
+      "url": "https://www.city.matsue.lg.jp/boshuu/15254.html",
       "prefecture": "島根県",
-      "org": "島根県 入札・プロポーザル情報",
+      "org": "松江市 入札・契約情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "台湾と圏域企業との経済連携に係る調査業務プロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/16850.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "松江市敬老祝品の調達業務公募型プロポーザル",
+      "url": "https://www.city.matsue.lg.jp/boshuu/18893.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
       "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "文化・スポーツイベントニュース制作業務委託公募型プロポーザル参加事業者の募集",
+      "url": "https://www.city.matsue.lg.jp/boshuu/19729.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "子育ての日イベント・キャンペーン実施運営業務委託公募型プロポーザル",
+      "url": "https://www.city.matsue.lg.jp/boshuu/20217.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "松江市総合防災センター整備業務委託公募型プロポーザル実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/20299.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "松江市（島根）スクールバス運行業務委託プロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/21244.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "職員健康管理システム運営事業プロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/21883.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "松江市地域公共交通利便増進実施計画策定業務に係るプロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/22360.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "地域の魅力再発見事業運営業務委託公募型プロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/22551.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "新松江市合併20周年記念式典業務委託公募型プロポーザルの募集について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/22637.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "松江市母子父子寡婦福祉資金貸付システム更新業務委託プロポーザルについて",
+      "url": "https://www.city.matsue.lg.jp/boshuu/22663.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "松江市学力調査実施業務委託公募型プロポーザルの募集について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/22965.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "松江市高齢者福祉計画・第10期介護保険事業計画策定に向けた調査業務委託プロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/23157.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "原子力災害の発生に備えた普及啓発動画作製業務委託公募型プロポーザル参加事業者の募集",
+      "url": "https://www.city.matsue.lg.jp/boshuu/23343.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "デジタル技術を活用した事務の効率化とリモート窓口設置業務委託プロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/23385.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "松江市観光シェアサイクル導入・運営業務委託公募型プロポーザルの募集について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/23560.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "外国語指導助手派遣業務委託公募型プロポーザルの募集について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/24115.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "松江市コミュニティバス運行業務委託に係るプロポーザルの実施について（令和8年度実施）",
+      "url": "https://www.city.matsue.lg.jp/boshuu/24263.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "まちづくり・地域活性化",
+      "is_updated": false
+    },
+    {
+      "title": "松江市（秋鹿）スクールバス運行業務委託プロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/24275.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "松江市（古江）スクールバス運行業務委託プロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/24276.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "松江市総合体育館周辺エリア整備事業サウンディング調査業務委託に係るプロポーザル",
+      "url": "https://www.city.matsue.lg.jp/boshuu/24621.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "松江市本庁案内地図表示板広告事業に係るプロポーザルについて",
+      "url": "https://www.city.matsue.lg.jp/boshuu/24630.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "大手前広場乗船場「観光情報拠点施設」飲食店運営事業者募集プロポーザル",
+      "url": "https://www.city.matsue.lg.jp/boshuu/24714.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "松江市電子図書館システム導入事業委託プロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/25177.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "令和8年度松江市都市マスタープラン・立地適正化計画改定業務委託公募型プロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/25416.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "松江市母子父子寡婦福祉資金貸付金債権回収等業務委託プロポーザルについて",
+      "url": "https://www.city.matsue.lg.jp/boshuu/25507.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "令和8年度松江市自動運転バス実証事業車両調達及び実証運行業務委託にかかるプロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/25926.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "令和8年度松江市道路インフラ包括的民間委託導入検討業務委託の公募型プロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/26029.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "新リサイクル施設の整備・運営に係る基本計画等作成業務委託 プロポーザル",
+      "url": "https://www.city.matsue.lg.jp/boshuu/26086.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "アクセラレータープログラム企画運営業務委託プロポーザルについて",
+      "url": "https://www.city.matsue.lg.jp/boshuu/26122.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "松江市保育所給付費等管理システム導入業務委託 プロポーザル",
+      "url": "https://www.city.matsue.lg.jp/boshuu/26280.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "松江市基幹相談支援センター運営業務委託プロポーザルの実施について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/26419.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "松江市学校ICT支援業務委託公募型プロポーザルの募集について",
+      "url": "https://www.city.matsue.lg.jp/boshuu/26460.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "「松江伝統芸能祭･佐陀神能ユネスコ無形文化遺産登録15周年-神座-」業務委託公開型プロポーザル",
+      "url": "https://www.city.matsue.lg.jp/boshuu/26759.html",
+      "prefecture": "島根県",
+      "org": "松江市 入札・契約情報",
+      "category": "観光・文化・イベント",
       "is_updated": false
     },
     {
@@ -35,11 +307,67 @@
       "is_updated": false
     },
     {
+      "title": "「出雲市立学校給食センター調理業務委託」公募型プロポーザルの実施について【学校給食課】",
+      "url": "https://www.city.izumo.shimane.jp/www/contents/1780538333913/index.html",
+      "prefecture": "島根県",
+      "org": "出雲市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "江津市文書管理・電子決裁システム導入構築業務委託に係る公募型プロポーザルについて、審査結果を次のとおり公表します。",
+      "url": "https://www.city.gotsu.lg.jp/soshiki/4/33043.html",
+      "prefecture": "島根県",
+      "org": "江津市 入札・契約情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "江津市文書管理・電子決裁システム導入構築業務委託に係る公募型プロポーザルを実施します",
+      "url": "https://www.city.gotsu.lg.jp/soshiki/4/32002.html",
+      "prefecture": "島根県",
+      "org": "江津市 入札・契約情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
       "title": "【調達公告】「オートモーティブワールド2027」鳥取県ブース出展等業務委託公募型プロポーザルの実施",
       "url": "https://www.pref.tottori.lg.jp/330873.htm",
       "prefecture": "鳥取県",
       "org": "鳥取県 入札・調達情報",
       "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "鳥取市障がい者相談支援事業業務委託 公募型プロポーザルの実施について",
+      "url": "https://www.city.tottori.lg.jp/page/51446.html",
+      "prefecture": "鳥取県",
+      "org": "鳥取市 入札・プロポーザル情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "【質問及び回答】eラーニング教材を活用した学習支援事業公募型プロポーザルの実施について",
+      "url": "https://www.city.tottori.lg.jp/page/49597.html",
+      "prefecture": "鳥取県",
+      "org": "鳥取市 入札・プロポーザル情報",
+      "category": "教育・研修・ワークショップ",
+      "is_updated": false
+    },
+    {
+      "title": "【質問及び回答】オンライン英会話事業公募型プロポーザルの実施について",
+      "url": "https://www.city.tottori.lg.jp/page/49594.html",
+      "prefecture": "鳥取県",
+      "org": "鳥取市 入札・プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【質問及び回答】「令和9年度鳥取市グローバル人材育成事業」旅行代理業務公募型プロポーザルの実施について",
+      "url": "https://www.city.tottori.lg.jp/page/49477.html",
+      "prefecture": "鳥取県",
+      "org": "鳥取市 入札・プロポーザル情報",
+      "category": "教育・研修・ワークショップ",
       "is_updated": false
     },
     {
@@ -931,6 +1259,206 @@
       "is_updated": false
     },
     {
+      "title": "【公募型プロポーザル】生成AIチャットボット機能を搭載したデジタルサイネージの構築・運用業務",
+      "url": "https://www.city.kure.lg.jp/soshiki/67/kure-aichatbot2026.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "質問に対する回答を更新しました　【公募型プロポーザル】ＡＩカメラを用いた駐車場利用状況可視化業務",
+      "url": "https://www.city.kure.lg.jp/soshiki/36/ai-camera-proposal.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【11/6更新】呉市苗代市有地の売却等優先交渉権者の決定に係る公募型プロポーザル",
+      "url": "https://www.city.kure.lg.jp/soshiki/40/kure-naeshiroshiyuuchi.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】（仮称）公園アパート建設工事に伴う基本設計及び実施設計業務",
+      "url": "https://www.city.kure.lg.jp/soshiki/46/kouenpuropo.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "呉市陸上競技場整備事業公募型プロポーザルの結果",
+      "url": "https://www.city.kure.lg.jp/soshiki/43/rikujo-202608.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】呉市スポーツ施設及び文化施設等照明設備ＬＥＤ化ＥＳＣＯ事業",
+      "url": "https://www.city.kure.lg.jp/soshiki/18/sports-bunka-esco-propo.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】AI活用力向上研修実施業務",
+      "url": "https://www.city.kure.lg.jp/soshiki/36/ai-literacy-training-proposal.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "令和８年度呉市火葬場残骨灰処理業務に係る公募型プロポーザルの特定結果",
+      "url": "https://www.city.kure.lg.jp/soshiki/18/zankotsubaishorigyoumukekka.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "呉市陸上競技場整備事業の検査等支援に係るＣＭ業務（公募型プロポーザル）",
+      "url": "https://www.city.kure.lg.jp/soshiki/43/rikujo-cm.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【受託候補者等決定】呉市ＡＩ等シンポジウム・セミナー企画運営業務　公募型プロポーザル",
+      "url": "https://www.city.kure.lg.jp/soshiki/40/kure-aisinnpoziumu.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "教育・研修・ワークショップ",
+      "is_updated": false
+    },
+    {
+      "title": "【再募集】呉市陸上競技場整備事業（公募型プロポーザル）",
+      "url": "https://www.city.kure.lg.jp/soshiki/43/rikujo.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】呉市環境教育副読本デジタル化業務",
+      "url": "https://www.city.kure.lg.jp/soshiki/18/digitalfukudokuhon-propo.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和８年度呉市火葬場残骨灰処理業務",
+      "url": "https://www.city.kure.lg.jp/soshiki/18/zankotsubaishorigyoumu.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "呉市窓口支援システム導入業務」の業務委託に係るプロポーザル実施のお知らせ",
+      "url": "https://www.city.kure.lg.jp/soshiki/54/dxsaas-contract20260424.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】次期ごみ処理施設整備運営事業に係る設計施工監理業務",
+      "url": "https://www.city.kure.lg.jp/soshiki/18/gomi-kensetsu-supervision-proposal.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "呉市放課後児童会・子供教室校内交流型事業に係る公募型プロポーザル",
+      "url": "https://www.city.kure.lg.jp/soshiki/60/kounaikouryuugata.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】呉市斎場次期事業（６月２７日更新）",
+      "url": "https://www.city.kure.lg.jp/soshiki/18/saijyo-proposal.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "呉市アーバンスポーツ施設整備に係る実施設計業務公募型プロポーザルの結果",
+      "url": "https://www.city.kure.lg.jp/soshiki/43/sportspropo.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】呉市斎場次期事業アドバイザリー業務",
+      "url": "https://www.city.kure.lg.jp/soshiki/18/saijyo-advisory.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "ＢＰＲ（業務改革）伴走型支援業務に係る公募型プロポーザルの結果",
+      "url": "https://www.city.kure.lg.jp/soshiki/36/bprproporzalkekka.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "質問及び回答追加掲載【公募型プロポーザル】令和６年度から令和８年度 呉市東部地区外国人総合相談窓口業務委託",
+      "url": "https://www.city.kure.lg.jp/soshiki/4/propo-soudan-r3.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】ＢＰＲ（業務改革）伴走型支援業務",
+      "url": "https://www.city.kure.lg.jp/soshiki/36/bprproporzal.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "呉市内部共通事務システム導入業務に係る公募型プロポーザルの結果",
+      "url": "https://www.city.kure.lg.jp/soshiki/36/kekka-naibukyotu-proposal.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】呉市東部火葬場ほか予約システム構築等業務",
+      "url": "https://www.city.kure.lg.jp/soshiki/18/toubukasouba-puropozaru.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【立地協定締結】呉市総合スポーツセンター（ミツトヨスポーツパーク郷原）売却優先交渉権者決定に係る公募型プロポーザル",
+      "url": "https://www.city.kure.lg.jp/soshiki/40/sportspark.html",
+      "prefecture": "広島県",
+      "org": "呉市 プロポーザル情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
       "title": "「東広島市道路附属物等調査業務」に係る公募型プロポーザルの実施について",
       "url": "https://www.city.higashihiroshima.lg.jp/sangyo/nyusatsu/1/40520.html",
       "prefecture": "広島県",
@@ -995,6 +1523,54 @@
       "is_updated": false
     },
     {
+      "title": "配管設計CADシステム導入業務委託公募型プロポーザル審査結果",
+      "url": "https://www.city.onomichi.hiroshima.jp/soshiki/64/93132.html",
+      "prefecture": "広島県",
+      "org": "尾道市 入札・プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "尾道市窓口サービス及び住民基本台帳記載事務の業務委託に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.onomichi.hiroshima.jp/soshiki/14/90536.html",
+      "prefecture": "広島県",
+      "org": "尾道市 入札・プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "高機能消防指令システム更新整備業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.onomichi.hiroshima.jp/soshiki/47/90930.html",
+      "prefecture": "広島県",
+      "org": "尾道市 入札・プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "（仮称）東尾道屋内子ども広場遊具等設置業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.onomichi.hiroshima.jp/soshiki/23/92181.html",
+      "prefecture": "広島県",
+      "org": "尾道市 入札・プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "配管設計CADシステム導入業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.onomichi.hiroshima.jp/soshiki/64/91105.html",
+      "prefecture": "広島県",
+      "org": "尾道市 入札・プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "（仮称）尾道駅前子ども広場整備業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.onomichi.hiroshima.jp/soshiki/23/90957.html",
+      "prefecture": "広島県",
+      "org": "尾道市 入札・プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
       "title": "廿⽇市市留守家庭児童会おやつ提供業務委託に関する公募型プロポーザル",
       "url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/35/145062.html",
       "prefecture": "広島県",
@@ -1016,6 +1592,54 @@
       "prefecture": "広島県",
       "org": "廿日市市 入札・プロポーザル情報",
       "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "【委託事業者を決定しました】三原市道路等維持管理マネジメントシステム導入業務の公募型プロポーザルを実施します",
+      "url": "https://www.city.mihara.hiroshima.jp/soshiki/28/194079.html",
+      "prefecture": "広島県",
+      "org": "三原市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "令和7年度三次市公共施設照明設備LED化推進事業（リース方式）の公募型プロポーザルの実施について",
+      "url": "https://www.city.miyoshi.hiroshima.jp/soshiki/20/35510.html",
+      "prefecture": "広島県",
+      "org": "三次市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "十日市小・中学校改築工事基本・実施設計業務の公募型プロポーザルの実施について",
+      "url": "https://www.city.miyoshi.hiroshima.jp/site/education-report/31329.html",
+      "prefecture": "広島県",
+      "org": "三次市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "三次市三次学校給食センター給食配送業務の公募型プロポーザルの実施について",
+      "url": "https://www.city.miyoshi.hiroshima.jp/site/education-report/17346.html",
+      "prefecture": "広島県",
+      "org": "三次市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "（仮称）三次市新学校給食調理場建設工事基本・実施設計業務指名型プロポーザル　技術提案書の特定について",
+      "url": "https://www.city.miyoshi.hiroshima.jp/site/education-report/3087.html",
+      "prefecture": "広島県",
+      "org": "三次市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "三次市立三次小学校改築工事基本・実施設計業務の公募型プロポーザルの実施について",
+      "url": "https://www.city.miyoshi.hiroshima.jp/soshiki/35/41081.html",
+      "prefecture": "広島県",
+      "org": "三次市 プロポーザル情報",
+      "category": "建築・設計・土木",
       "is_updated": false
     },
     {
@@ -1227,6 +1851,598 @@
       "is_updated": false
     },
     {
+      "title": "放課後児童クラブ「大内臨時学級」運営業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/58/200036.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "山口市ファミリー・サポート・センター事業運営業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/58/201430.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "放課後児童クラブ「平川臨時第２学級」運営業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/58/200035.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "山口市市税等コールセンター管理運営業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/12/196649.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "「山口市潜在介護人材支援業務委託」に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/56/162600.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "旧阿東ふるさと交流促進センター及び周辺土地の売払事業に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/9/199560.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "旧八坂保育園売払事業に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/9/199559.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "市民交流棟コンビニエンスストア運営に係る事業者選考公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/3/194783.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "市民交流棟レストラン運営に係る事業者選考公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/3/159742.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "山口市シェアサイクル事業運営業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/73/193142.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "山口市プラスチック圧縮梱包設備更新に係る総合支援業務公募型プロポーザル",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/50/187958.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "道場門前二丁目地区再開発に係るエリアマネジメント業務に関する公募型プロポーザル実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/76/195218.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "やまぐち良品プレイスイベント等開催業務に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/63/194288.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "山口市LINE公式アカウント連携システム更改業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/8/192455.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "山口市多胎ピアサポート事業委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/150/174724.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "令和8年度地元企業の魅力・職業体験イベント等開催事業業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/63/191370.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "旧二島幼稚園貸付け事業に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/9/185666.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "山口市ずっと元気・PFSプロジェクトに係る業務委託における公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/200/179645.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "（仮称）山口市武道館整備事業基本設計業務に係る公募型プロポーザル",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/22/177607.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "第3回オーガニック＆ナチュラルライフ　ガーデンフェア開催業務委託にかかる公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/64/176655.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "山口市誕生２０周年記念式典企画運営業務公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/3/177725.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "山口市地域クラブ会費収納管理システム導入業務委託に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/162/179338.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "山口市立図書館　図書館システム更新業務に係る公開型プロポーザルの実施結果について（令和7年6月6日公表）",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/115/175775.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "令和７年度　山口市デコ活周知啓発事業業務委託に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/48/177781.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "山口市デジタル人材育成事業におけるＥラーニングシステム提供業務に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/8/173779.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "山口市地域クラブ会費収納管理システム導入業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/162/176904.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "令和７年度　山口市デコ活周知啓発事業業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/48/175120.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "「『県央連携都市圏域情報発信』テレビ番組制作放送業務」に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/16/161274.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "山口市新本庁舎立体駐車場設計業務委託に係る公募型プロポーザル",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/146/161183.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "山口市産業用地に関する適地調査業務委託に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/70/159092.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "山口市広告付き窓口番号案内表示システム設置及び運用業務に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/8/158511.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "大内臨時学級運営業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/58/155820.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "重源の郷体験交流公園植栽再整備業務委託に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/21/150029.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "山口市窓口支援システム構築・運用保守業務に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/8/142241.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "「『県央連携都市圏域情報発信』テレビ番組制作放送業務」に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/16/143180.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "山口市統合型・公開型ＧＩＳ更改業務に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/8/141614.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "道の駅「あいお」移転整備事業基本設計業務に係る公募型プロポーザルの実施について（8月7日更新)",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/26/140722.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "国宝瑠璃光寺五重塔改修に伴う観光コンテンツ制作業務に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/21/136866.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "山口県央消防指令センターシステム構築業務委託に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/102/137486.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "国宝瑠璃光寺五重塔改修に伴う観光コンテンツ制作業務に係る公募型プロポーザルに関する質問への回答について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/21/137858.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "なかいち学級運営業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/58/127396.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "「山口市緊急通報システム事業業務委託」に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/55/127006.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "農山村エリアにおけるデジタル技術等を活用した高齢者等の支援体制構築業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/200/126087.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "「『県央連携都市圏域情報発信』テレビ番組制作放送業務」に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/16/122830.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "山口市データ連携基盤等構築業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/200/122083.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "「山口市避難行動要支援者等管理システム導入業務委託」に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/4/119759.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "（仮称）山口県央消防指令センターシステム調達支援業務委託に係る公募型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/99/107206.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "「市民問い合わせ対応AIチャットボットサービス導入業務委託」に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/8/108892.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "山口ゆめ回廊物産フェア開催業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/63/99538.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "「『県央連携都市圏域情報発信』テレビ番組制作放送業務」に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/16/94518.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "大殿小学校区放課後児童クラブ運営業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/58/92194.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "山口市企業誘致パンフレット及びホームページリニューアル業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/70/92287.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "山口市公式ＬＩＮＥ情報配信サービス構築・運用業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/16/85992.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "多世代交流・健康増進拠点施設整備基本計画デザイン等支援業務に係る公募型プロポーザル",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/21/54886.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "山口市新本庁舎整備基本計画策定支援業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/146/41951.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "山口市新本庁舎整備基本計画策定支援業務委託に係る公募型プロポーザルに関する質問について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/146/42658.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "情報発信強化業務に係る公募型プロポーザルの結果",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/16/28277.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "山口市誕生10周年記念式典企画運営業務に係る指名型プロポーザルの実施結果について",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/3/5754.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "平成27年度山口市地域再生計画策定支援業務委託に係る公募型プロポーザル実施結果",
+      "url": "https://www.city.yamaguchi.lg.jp/soshiki/14/3689.html",
+      "prefecture": "山口県",
+      "org": "山口市 プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "功山寺公衆便所新築工事設計委託業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/165018.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "環境学習動画教材制作業務公募型プロポーザルの実施について",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/165799.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "下関市ボートレース企業局公営企業会計システム導入業務に係る公募型プロポーザルへの質問に対する回答について",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/164842.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "令和8年度下関市奨学金返還支援補助金制度広報業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/164524.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "「長府地区土塀ライトアップ整備業務」に係る公募型プロポーザルを実施します。",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/163573.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "令和9年執行「下関市議会議員一般選挙啓発業務」に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/164390.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "下関市ボートレース企業局公営企業会計システム導入業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/163786.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "下関市標準準拠システム（児童手当・児童扶養手当）導入運用業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/140877.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "下関市環境基本計画改定に係るアンケート調査業務公募型プロポーザルの実施について",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/139883.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "第十次下関市いきいきシルバープラン策定業務公募型プロポーザルの実施について",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/137978.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "新下関市場再整備調査検討業務の公募型プロポーザルの実施について",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/136412.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "下関市私立就学前施設ICT化事業事業者選定公募型プロポーザルの実施について",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/136074.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "下関市学校給食施設再編整備計画策定支援業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/113128.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "下関市標準準拠システム（健康管理）導入運用業務に係るプロポーザルの実施",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/109446.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "下関市立市民病院医療機能分析等支援業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/74815.html",
+      "prefecture": "山口県",
+      "org": "下関市 入札・プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
       "title": "プロポーザルガイドライン",
       "url": "https://www.city.ube.yamaguchi.jp/boshu/boshuu_shigoto/boshu_nyuusatsu/1024709/index.html",
       "prefecture": "山口県",
@@ -1240,6 +2456,254 @@
       "prefecture": "山口県",
       "org": "宇部市 入札・プロポーザル情報",
       "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "市の入札・プロポーザル情報・結果",
+      "url": "https://www.city.shunan.lg.jp/life/6/28/",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "周南市都市計画マスタープラン及び立地適正化計画改定支援業務委託・周南市緑の基本計画改定支援業務委託公募型プロポーザルの実施について（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/40/149149.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "周南市公共施設等LED照明設備賃貸借に係る公募型プロポーザルの実施について（令和8年度）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/18/152579.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "「エンジョイスポーツ！！ボートレース徳山で遊びつくす夏！！」イベント企画運営等業務委託のプロポーザル（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/72/150125.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "プレミアムG1第40回レディースチャンピオン等競走開催に係る運営業務委託のプロポーザル（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/72/144298.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "令和8年度ボートレース徳山公式Youtubeチャンネルライブ配信業務委託のプロポーザル（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/72/144299.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "周南市公共施設等LED照明設備賃貸借に係る公募型プロポーザルの実施について（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/18/136247.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "周南市小中学校特別教室空調設備等整備アドバイザリー等業務に係る公募型プロポーザルの実施について（結果の公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/55/140417.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "周南市都心軸景観デザイン方針作成業務委託公募型プロポーザルの実施について(結果公表)",
+      "url": "https://www.city.shunan.lg.jp/soshiki/40/137551.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "周南市市民館跡地エリア整備基本構想・基本計画策定支援業務公募型プロポーザルの実施（結果の公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/2/137170.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "周南市道の駅ソレーネ周南リニューアルに係る業者選定アドバイザリー業務公募型プロポーザル（結果の公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/33/135038.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "周南市ブルーカーボン推進事業業務委託に係る公募型プロポーザル（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/34/133990.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "周南公立大学経済波及効果推計業務に係るプロポーザル（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/106/130924.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "周南市小中学校特別教室空調設備等整備手法検討業務に係る公募型プロポーザルの実施について（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/55/114762.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "第5次周南市地域福祉計画等策定業務委託に係る公募型プロポーザル（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/24/118939.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "鹿野観光交流拠点施設整備基本設計・実施設計外業務委託に係る公募型プロポーザルの実施について（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/17/118764.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "周南市都市計画シミュレーション業務委託公募型プロポーザルの実施について（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/40/117582.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "周南市統合型・市民公開型ＧＩＳ構築業務委託公募型プロポーザル（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/40/115301.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "周南市リサイクルプラザ長期包括的運転管理業務委託事業に係る発注支援等業務に係る公募型プロポーザルの実施について（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/19/117309.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "周南市緊急通報システム事業及びもやいネットセンター休日夜間対応業務委託に係る公募型プロポーザル（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/24/108286.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "周南市一般廃棄物(ごみ)処理基本計画策定業務委託に係る公募型プロポーザルの実施について（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/19/108233.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "周南市粗大ごみ収集予約管理等システムの導入及びシステム運用保守業務に係る公募型プロポーザルの実施について（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/19/105819.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "徳山動物園民間活力導入に関する調査設計業務委託に係る公募型プロポーザル（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/35/104077.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "周南市誕生２０周年記念映像制作業務に係る公募型プロポーザルの実施について（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/3/101374.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "周南市統合型ＧＩＳ等構築基本計画策定及びデータ構築仕様書作成業務委託公募型プロポーザルの実施について(結果公表)",
+      "url": "https://www.city.shunan.lg.jp/soshiki/40/101817.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "周南市リサイクルプラザ長期包括的運転管理業務委託事業に係る方針検討業務に係る公募型プロポーザルの実施について（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/19/105823.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "第2次周南市水素利活用計画策定業務に係る公募型プロポーザル（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/32/99388.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "徳山駅周辺官民連携管理運営事業に係る実施方針の公表及び説明会の開催(「公募型プロポーザルについて」を追加）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/40/80582.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "周南市観光ポスター制作業務委託公募型プロポーザル（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/17/73030.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "周南市不動産評価支援業務委託に係る公募型プロポーザル（結果公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/12/67892.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "「周南市エンディングノート協働発行業務」に係る公募型プロポーザル（結果の公表）",
+      "url": "https://www.city.shunan.lg.jp/soshiki/24/44049.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "その他・委託全般",
       "is_updated": false
     },
     {
@@ -1312,6 +2776,254 @@
       "prefecture": "山口県",
       "org": "防府市 入札情報",
       "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "第3次岩国市総合計画後期基本計画策定支援業務に係る公募型プロポーザルについて（質問と回答を追加しました）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/10/119885.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市例規集データベース関係委託業務に係る公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/1/119396.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市姉妹都市展示コーナー製作業務に係る公募型プロポーザルについて",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/129/121209.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市地域包括支援センター運営業務に係る公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/117/118139.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市例規集データベース関係委託業務に係る公募型プロポーザルについて",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/1/119395.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市下水道受益者負担金システム更新業務に関する公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/26/119011.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "橋梁包括維持管理に向けた点検計画設計業務に係る公募型プロポーザルについて（結果)",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/48/115596.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市公共施設包括管理業務に係る公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/11/116139.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "（仮称）観光交流センター整備事業基本設計業務に係る公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/39/118448.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "（仮称）観光交流センター整備事業基本設計業務に係る公募型プロポーザルについて",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/39/116013.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市介護認定審査会環境整備業務に係る公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/117/108406.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "玖西地域放課後児童教室運営業務に関する公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/109135.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "灘放課後児童教室ほか運営業務に関する公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/109134.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "岩国・平田放課後児童教室運営業務委託に関する公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/109133.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市立保育園・幼稚園等のICT導入業務に関する公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/107873.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "岩国・平田放課後児童教室運営業務に関する公募型プロポーザルについて",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/106251.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "灘放課後児童教室ほか運営業務に関する公募型プロポーザルについて",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/106354.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "玖西地域放課後児童教室運営業務に関する公募型プロポーザルについて",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/106351.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市立保育園・幼稚園等のICT導入業務に関する公募型プロポーザルについて",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/105543.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "麻里布放課後児童教室ほか運営業務委託に関する公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/98909.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "第2次岩国市観光ビジョン策定業務に係る公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/39/88204.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "玖珂・周東地域放課後児童教室運営業務委託に関する公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/81183.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "平田放課後児童教室運営業務委託に関する公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/81184.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "岩国放課後児童教室運営業務委託に関する公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/81185.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "第2次岩国市観光ビジョン策定業務に係る公募型プロポーザルについて",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/39/85978.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "麻里布第二放課後児童教室運営業務に関する公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/81181.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市にぎわい創出施設整備実施計画策定業務に係る公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/46/81132.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市博物館整備展示基本設計業務に係る公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/109/71203.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市博物館整備建築基本設計業務に係る公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/109/71201.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市家庭学習用通信環境整備事業に係る公募型プロポーザルについて（結果）",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/52/54273.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "岩国市家庭学習用通信環境整備事業に係る公募型プロポーザルについて",
+      "url": "https://www.city.iwakuni.lg.jp/soshiki/52/52293.html",
+      "prefecture": "山口県",
+      "org": "岩国市 プロポーザル情報",
+      "category": "建築・設計・土木",
       "is_updated": false
     },
     {

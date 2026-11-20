@@ -14,7 +14,7 @@ SITES = [
     # =====================================================
     {
         "name": "松江市 入札・契約情報",
-        "url": "https://www.city.matsue.lg.jp/nyusatukeiyaku/index.html",
+        "url": "https://www.city.matsue.lg.jp/boshuu/",
         "base_url": "https://www.city.matsue.lg.jp",
         "prefecture": "島根県（松江市）",
         "category": "プロポーザル・入札",
@@ -27,29 +27,29 @@ SITES = [
         "category": "プロポーザル・入札",
     },
     {
-        "name": "出雲市 入札情報",
-        "url": "https://www.city.izumo.shimane.jp/",
+        "name": "出雲市 プロポーザル情報",
+        "url": "https://www.city.izumo.shimane.jp/www/genre/1752214796728/index.html",
         "base_url": "https://www.city.izumo.shimane.jp",
         "prefecture": "島根県（出雲市）",
         "category": "プロポーザル・入札",
     },
     {
         "name": "益田市 入札・契約情報",
-        "url": "https://www.city.masuda.lg.jp/shigoto_sangyo/nyusatsu_keiyaku/index.html",
+        "url": "https://www.city.masuda.lg.jp/shigoto_sangyo/nyusatsu_keiyaku/kobogataproposal/index.html",
         "base_url": "https://www.city.masuda.lg.jp",
         "prefecture": "島根県（益田市）",
         "category": "プロポーザル・入札",
     },
     {
         "name": "大田市 入札情報",
-        "url": "https://www.city.oda.lg.jp/ohda_city/city_organization/25/35/241/",
+        "url": "https://www.city.oda.lg.jp/ohda_city/city_organization/25/35/241/12495/",
         "base_url": "https://www.city.oda.lg.jp",
         "prefecture": "島根県（大田市）",
         "category": "プロポーザル・入札",
     },
     {
         "name": "江津市 入札・契約情報",
-        "url": "https://www.city.gotsu.lg.jp/life/2/16/",
+        "url": "https://www.city.gotsu.lg.jp/life/2/16/71/",
         "base_url": "https://www.city.gotsu.lg.jp",
         "prefecture": "島根県（江津市）",
         "category": "プロポーザル・入札",
@@ -138,7 +138,7 @@ SITES = [
     # =====================================================
     {
         "name": "鳥取市 入札・プロポーザル情報",
-        "url": "https://www.city.tottori.lg.jp/",
+        "url": "https://www.city.tottori.lg.jp/life/4/30/144",
         "base_url": "https://www.city.tottori.lg.jp",
         "prefecture": "鳥取県（鳥取市）",
         "category": "プロポーザル・入札",
@@ -268,8 +268,8 @@ SITES = [
         "category": "プロポーザル・入札",
     },
     {
-        "name": "呉市 入札・契約情報",
-        "url": "https://www.city.kure.lg.jp/soshiki/9/",
+        "name": "呉市 プロポーザル情報",
+        "url": "https://www.city.kure.lg.jp/life/2/99/421/",
         "base_url": "https://www.city.kure.lg.jp",
         "prefecture": "広島県（呉市）",
         "category": "プロポーザル・入札",
@@ -283,7 +283,7 @@ SITES = [
     },
     {
         "name": "尾道市 入札・プロポーザル情報",
-        "url": "https://www.city.onomichi.hiroshima.jp/soshiki/6/",
+        "url": "https://www.city.onomichi.hiroshima.jp/life/2/35/",
         "base_url": "https://www.city.onomichi.hiroshima.jp",
         "prefecture": "広島県（尾道市）",
         "category": "プロポーザル・入札",
@@ -296,15 +296,15 @@ SITES = [
         "category": "プロポーザル・入札",
     },
     {
-        "name": "三原市 入札情報",
-        "url": "https://www.city.mihara.hiroshima.jp/soshiki/4/",
+        "name": "三原市 プロポーザル情報",
+        "url": "https://www.city.mihara.hiroshima.jp/life/2/17/140/",
         "base_url": "https://www.city.mihara.hiroshima.jp",
         "prefecture": "広島県（三原市）",
         "category": "プロポーザル・入札",
     },
     {
-        "name": "三次市 入札情報",
-        "url": "https://www.city.miyoshi.hiroshima.jp/soshiki/5/",
+        "name": "三次市 プロポーザル情報",
+        "url": "https://www.city.miyoshi.hiroshima.jp/life/5/38/174/",
         "base_url": "https://www.city.miyoshi.hiroshima.jp",
         "prefecture": "広島県（三次市）",
         "category": "プロポーザル・入札",
@@ -618,15 +618,15 @@ SITES = [
     # 山口県（市）
     # =====================================================
     {
-        "name": "山口市 入札情報",
-        "url": "https://www.city.yamaguchi.lg.jp/soshiki/7/",
+        "name": "山口市 プロポーザル情報",
+        "url": "https://www.city.yamaguchi.lg.jp/life/2/18/92/",
         "base_url": "https://www.city.yamaguchi.lg.jp",
         "prefecture": "山口県（山口市）",
         "category": "プロポーザル・入札",
     },
     {
         "name": "下関市 入札・プロポーザル情報",
-        "url": "https://www.city.shimonoseki.lg.jp/soshiki/55/",
+        "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/list98-509.html",
         "base_url": "https://www.city.shimonoseki.lg.jp",
         "prefecture": "山口県（下関市）",
         "category": "プロポーザル・入札",
@@ -639,8 +639,8 @@ SITES = [
         "category": "プロポーザル・入札",
     },
     {
-        "name": "周南市 入札情報",
-        "url": "https://www.city.shunan.lg.jp/soshiki/5/",
+        "name": "周南市 プロポーザル情報",
+        "url": "https://www.city.shunan.lg.jp/life/6/28/135/",
         "base_url": "https://www.city.shunan.lg.jp",
         "prefecture": "山口県（周南市）",
         "category": "プロポーザル・入札",
@@ -660,8 +660,8 @@ SITES = [
         "category": "プロポーザル・入札",
     },
     {
-        "name": "岩国市 入札情報",
-        "url": "https://www.city.iwakuni.lg.jp/",
+        "name": "岩国市 プロポーザル情報",
+        "url": "https://www.city.iwakuni.lg.jp/life/2/26/163/",
         "base_url": "https://www.city.iwakuni.lg.jp",
         "prefecture": "山口県（岩国市）",
         "category": "プロポーザル・入札",
