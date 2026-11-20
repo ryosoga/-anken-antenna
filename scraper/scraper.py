@@ -4,25 +4,29 @@ import requests
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 from urllib.parse import urljoin, urlparse
 
-from categories import ALL_CATEGORY_KEYWORDS
-
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
-# リンクテキスト・URLに含まれていれば候補として拾うキーワード（一次フィルタ）
+# プロポーザル・委託案件を示すキーワード（いずれか1つ含めば候補）
 PICKUP_KEYWORDS = [
-    # プロポーザル・委託系（必須）
     "プロポーザル", "企画提案", "企画競争", "公募型", "提案公募", "提案競技",
-    "公募", "委託", "業務委託", "調達", "入札",
-    # 全カテゴリのキーワードをマージ
-    *ALL_CATEGORY_KEYWORDS,
+    "委託", "業務委託", "調達公告", "入札公告", "指名競争",
 ]
 
-# ナビゲーションなどの除外テキスト（完全一致）
+# ナビゲーション・汎用リンクの除外テキスト（完全一致）
 SKIP_TEXTS = {
     "ホーム", "トップ", "サイトマップ", "お問い合わせ", "アクセス",
     "印刷", "文字サイズ", "ページの先頭へ", "English", "中文",
     "トップページ", "一覧を見る", "もっと見る", "詳細はこちら",
 }
+
+# タイトルにこれらが含まれていたら除外（広報誌・案内系のノイズ）
+EXCLUDE_PATTERNS = [
+    "広報誌", "広報紙", "広報.*号に掲載", "情報誌", "市報", "町報",
+    "年男", "年女", "生まれ", "募集します！",
+    "パブリックコメント", "意見募集",
+    "採用試験", "職員募集", "会計年度任用",
+    "ふるさと納税", "ふるさと寄附",
+]
 
 
 def _make_id(url: str) -> str:
@@ -30,10 +34,16 @@ def _make_id(url: str) -> str:
 
 
 def _is_relevant_link(text: str, url: str) -> bool:
-    if not text or len(text) < 6 or len(text) > 200:
+    import re
+    if not text or len(text) < 8 or len(text) > 200:
         return False
     if text in SKIP_TEXTS:
         return False
+    # 除外パターンにマッチしたら捨てる
+    for pat in EXCLUDE_PATTERNS:
+        if re.search(pat, text):
+            return False
+    # URLにプロポーザル関連キーワードがあれば採用
     combined = text + url
     return any(kw in combined for kw in PICKUP_KEYWORDS)
 
