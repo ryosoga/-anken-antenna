@@ -1,15 +1,7 @@
 {
-  "updated_at": "2026-11-20 16:05",
-  "total": 27,
+  "updated_at": "2026-11-20 16:10",
+  "total": 17,
   "proposals": [
-    {
-      "title": "【県立病院課】県立病院の灯油調達（12月分）",
-      "url": "https://www.pref.shimane.lg.jp/bid_info/bid_hosp/koukoku_touyu12.html",
-      "prefecture": "島根県",
-      "org": "島根県 入札・プロポーザル情報",
-      "category": "その他・委託全般",
-      "is_updated": true
-    },
     {
       "title": "【観光振興課】テレビ番組等を活用した石見銀山観光プロモーション業務にかかる提案競技について",
       "url": "https://www.pref.shimane.lg.jp/bid_info/bid_kanko/ginzan_r8pr.html",
@@ -59,68 +51,12 @@
       "is_updated": false
     },
     {
-      "title": "【調達公告】鳥取県教育委員会におけるマイクロソフト社教育機関向けライセンス調達業務",
-      "url": "https://www.pref.tottori.lg.jp/330887.htm",
-      "prefecture": "鳥取県",
-      "org": "鳥取県 入札・調達情報",
-      "category": "教育・研修・ワークショップ",
-      "is_updated": false
-    },
-    {
-      "title": "【調達公告】令和８年度とりぎん文化会館梨花ホールホワイエトイレ改修業務（制限付一般競争入札）",
-      "url": "https://www.pref.tottori.lg.jp/323225.htm",
-      "prefecture": "鳥取県",
-      "org": "鳥取県 入札・調達情報",
-      "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
-      "title": "【調達公告】令和８年度とりぎん文化会館昇降バトン整備業務（制限付一般競争）",
-      "url": "https://www.pref.tottori.lg.jp/279885.htm",
-      "prefecture": "鳥取県",
-      "org": "鳥取県 入札・調達情報",
-      "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
-      "title": "【調達公告】総合療育センター及び皆生養護学校給食調理業務",
-      "url": "https://www.pref.tottori.lg.jp/item/1341684.htm#itemid1341684",
-      "prefecture": "鳥取県",
-      "org": "鳥取県 入札・調達情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "【調達公告】鳥取空港太陽光発電所パワーコンディショナ部品交換業務　一式",
-      "url": "https://www.pref.tottori.lg.jp/330914.htm",
-      "prefecture": "鳥取県",
-      "org": "鳥取県 入札・調達情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
       "title": "【調達公告】「オートモーティブワールド2027」鳥取県ブース出展等業務委託公募型プロポーザルの実施",
       "url": "https://www.pref.tottori.lg.jp/330873.htm",
       "prefecture": "鳥取県",
       "org": "鳥取県 入札・調達情報",
       "category": "その他・委託全般",
       "is_updated": false
-    },
-    {
-      "title": "【調達公告】鳥取情報ハイウェイ通信ネットワーク管理機器賃貸借業務",
-      "url": "https://www.pref.tottori.lg.jp/330423.htm",
-      "prefecture": "鳥取県",
-      "org": "鳥取県 入札・調達情報",
-      "category": "IT・DX・システム開発",
-      "is_updated": false
-    },
-    {
-      "title": "米子市弓浜コミュニティー広場人工芝賃貸借の公募型指名競争入札について",
-      "url": "https://www.city.yonago.lg.jp/item/62947.htm#itemid62947",
-      "prefecture": "鳥取県",
-      "org": "米子市 入札情報",
-      "category": "まちづくり・地域活性化",
-      "is_updated": true
     },
     {
       "title": "境港市学校給食センター及び保育所給食調理等業務委託に関するプロポーザルの実施について",
@@ -143,14 +79,6 @@
       "url": "https://www.kankyo-u.ac.jp/about/publicoffering/bid/20260929/",
       "prefecture": "鳥取県",
       "org": "公立鳥取環境大学 入札・公募情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "業務委託・その他（入札・契約）",
-      "url": "https://www.city.onomichi.hiroshima.jp/life/2/35/",
-      "prefecture": "広島県",
-      "org": "尾道市 入札・プロポーザル情報",
       "category": "その他・委託全般",
       "is_updated": false
     },
@@ -205,14 +133,6 @@
     {
       "title": "プロポーザル情報",
       "url": "https://www.city.sanyo-onoda.lg.jp/life/8/58/352/",
-      "prefecture": "山口県",
-      "org": "山陽小野田市 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "簡易公募型指名競争入札の参加者を募集します（11月20日から11月25日まで）",
-      "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/29/koubo-8-9.html",
       "prefecture": "山口県",
       "org": "山陽小野田市 入札情報",
       "category": "その他・委託全般",

@@ -6,10 +6,16 @@ from urllib.parse import urljoin, urlparse
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
-# プロポーザル・委託案件を示すキーワード（いずれか1つ含めば候補）
+# 一次フィルタ：いずれか含めばリンクを候補として拾う
 PICKUP_KEYWORDS = [
     "プロポーザル", "企画提案", "企画競争", "公募型", "提案公募", "提案競技",
     "委託", "業務委託", "調達公告", "入札公告", "指名競争",
+]
+
+# 二次フィルタ：プロポーザル・企画提案であることを確認するキーワード（必須）
+# タイトルまたはURLにいずれか1つ含まれていなければ除外
+PROPOSAL_CONFIRM_KEYWORDS = [
+    "プロポーザル", "企画提案", "企画競争", "提案競技", "提案公募", "公募型",
 ]
 
 # ナビゲーション・汎用リンクの除外テキスト（完全一致）
@@ -41,6 +47,8 @@ EXCLUDE_PATTERNS = [
     # 建設・土木工事（プロポーザルではなく請負工事）
     "建設工事.*入札", "入札公告.*工事", "工事.*入札公告",
     "下水道.*入札公告", "山腹工事", "護岸工事", "舗装工事", "橋梁工事",
+    # 指名競争入札（プロポーザルではない）
+    "指名競争入札の参加者を募集", "簡易公募型指名競争入札", "公募型指名競争入札",
     # 募集終了・結果公表済み
     "【審査結果】",
     "事業者の決定について", "事業者を選定", "事業者が決定",
@@ -69,9 +77,13 @@ def _is_relevant_link(text: str, url: str) -> bool:
     for pat in EXCLUDE_PATTERNS:
         if re.search(pat, text):
             return False
-    # URLにプロポーザル関連キーワードがあれば採用
     combined = text + url
-    return any(kw in combined for kw in PICKUP_KEYWORDS)
+    # 一次フィルタ：委託・入札系キーワードが含まれること
+    if not any(kw in combined for kw in PICKUP_KEYWORDS):
+        return False
+    # 二次フィルタ：プロポーザル・企画提案であることが明示されていること
+    # → 灯油調達・設備工事・物品賃貸借など、委託以外の調達を弾く
+    return any(kw in combined for kw in PROPOSAL_CONFIRM_KEYWORDS)
 
 
 def scrape_site(site: dict) -> list[dict]:
