@@ -1,17 +1,9 @@
 {
-  "updated_at": "2026-11-20 15:56",
-  "total": 57,
+  "updated_at": "2026-11-20 16:05",
+  "total": 27,
   "proposals": [
     {
-      "title": "庁舎の清掃業務、警備業務等の委託、電気供給業務の契約に係る入札参加資格の申請・変更届のページ",
-      "url": "https://www.pref.shimane.lg.jp/admin/bid/info/shinsei/",
-      "prefecture": "島根県",
-      "org": "島根県 入札・プロポーザル情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "【県立病院課】県立病院の灯油調達（12月分）に関する入札公告を",
+      "title": "【県立病院課】県立病院の灯油調達（12月分）",
       "url": "https://www.pref.shimane.lg.jp/bid_info/bid_hosp/koukoku_touyu12.html",
       "prefecture": "島根県",
       "org": "島根県 入札・プロポーザル情報",
@@ -39,14 +31,6 @@
       "url": "https://www.pref.shimane.lg.jp/bid_info/bid_spch/R9setsubiunten.html",
       "prefecture": "島根県",
       "org": "島根県 入札・プロポーザル情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "複数年度にわたる委託契約へのスライド条項適用について",
-      "url": "https://www.city.hamada.shimane.jp/www/contents/1786076498900/index.html",
-      "prefecture": "島根県",
-      "org": "浜田市 入札・調達情報",
       "category": "その他・委託全般",
       "is_updated": false
     },
@@ -80,14 +64,6 @@
       "prefecture": "鳥取県",
       "org": "鳥取県 入札・調達情報",
       "category": "教育・研修・ワークショップ",
-      "is_updated": false
-    },
-    {
-      "title": "【調達公告】（令和9年4月号～令和10年3月号）とっとり県政だよりの広告掲載",
-      "url": "https://www.pref.tottori.lg.jp/315013.htm",
-      "prefecture": "鳥取県",
-      "org": "鳥取県 入札・調達情報",
-      "category": "その他・委託全般",
       "is_updated": false
     },
     {
@@ -139,44 +115,12 @@
       "is_updated": false
     },
     {
-      "title": "【審査結果】デジタル採点システム提供業務公募型プロポーザルの実施について",
-      "url": "https://www.city.tottori.lg.jp/page/49599.html",
-      "prefecture": "鳥取県",
-      "org": "鳥取市 入札・プロポーザル情報",
-      "category": "IT・DX・システム開発",
-      "is_updated": false
-    },
-    {
-      "title": "鳥取市的場ポンプ場他建設工事の入札公告の情報提供について（日本下水道事業団入札公告）",
-      "url": "https://www.city.tottori.lg.jp/site/gesui/52427.html",
-      "prefecture": "鳥取県",
-      "org": "鳥取市 入札・プロポーザル情報",
-      "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
-      "title": "米子市弓浜コミュニティー広場人工芝賃貸借の公募型指名競争入札について質問がありましたので回答を掲載いたします。",
+      "title": "米子市弓浜コミュニティー広場人工芝賃貸借の公募型指名競争入札について",
       "url": "https://www.city.yonago.lg.jp/item/62947.htm#itemid62947",
       "prefecture": "鳥取県",
       "org": "米子市 入札情報",
       "category": "まちづくり・地域活性化",
-      "is_updated": false
-    },
-    {
-      "title": "電子入札の場合に限り入札参加者が1者の場合の指名競争入札を有効とすることについて",
-      "url": "https://www.city.kurayoshi.lg.jp/6922.htm",
-      "prefecture": "鳥取県",
-      "org": "倉吉市 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "公共工事の指名競争入札に係る閲覧用設計書の閲覧について",
-      "url": "https://www.city.kurayoshi.lg.jp/3273.htm",
-      "prefecture": "鳥取県",
-      "org": "倉吉市 入札情報",
-      "category": "建築・設計・土木",
-      "is_updated": false
+      "is_updated": true
     },
     {
       "title": "境港市学校給食センター及び保育所給食調理等業務委託に関するプロポーザルの実施について",
@@ -195,26 +139,10 @@
       "is_updated": false
     },
     {
-      "title": "一般競争（指名競争）参加資格の変更申請について",
-      "url": "https://www.town.nanbu.tottori.jp/admin/soumuka/9/",
-      "prefecture": "鳥取県",
-      "org": "南部町 入札・契約情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
       "title": "公立鳥取環境大学食堂の営業を受託する事業者の選定に係る公募型プロポーザルの実施について",
       "url": "https://www.kankyo-u.ac.jp/about/publicoffering/bid/20260929/",
       "prefecture": "鳥取県",
       "org": "公立鳥取環境大学 入札・公募情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "東広島市河内町大仙地区県有地利活用事業に係る公募型プロポーザルの結果について",
-      "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/daisenchikukekka.html",
-      "prefecture": "広島県",
-      "org": "広島県 入札・プロポーザル情報",
       "category": "その他・委託全般",
       "is_updated": false
     },
@@ -227,58 +155,10 @@
       "is_updated": false
     },
     {
-      "title": "三次市総合計画書デザイン作成業務の公募型プロポーザルについて（選考結果）",
-      "url": "https://www.city.miyoshi.hiroshima.jp/soshiki/5/26005.html",
-      "prefecture": "広島県",
-      "org": "三次市 入札情報",
-      "category": "映像・動画・PR・広報",
-      "is_updated": false
-    },
-    {
-      "title": "2026年3月から適用する設計業務委託等技術者単価の運用に係る特例措置について",
-      "url": "https://www.akitakata.jp/ja/shisei/section/soumu_soumu/tsuuchitooshirase/s925/",
-      "prefecture": "広島県",
-      "org": "安芸高田市 入札情報",
-      "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
-      "title": "2025年3月から適用する設計業務委託等技術者単価の運用に係る特例措置について",
-      "url": "https://www.akitakata.jp/ja/shisei/section/soumu_soumu/tsuuchitooshirase/v721/",
-      "prefecture": "広島県",
-      "org": "安芸高田市 入札情報",
-      "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
-      "title": "2025年3月から適用する公共工事設計労務単価及び設計業務委託等技術者単価の運用に係る特例措置について",
-      "url": "https://www.akitakata.jp/ja/shisei/section/soumu_soumu/tsuuchitooshirase/u921/",
-      "prefecture": "広島県",
-      "org": "安芸高田市 入札情報",
-      "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
-      "title": "【入札公告】西堀地区山腹工事",
-      "url": "https://www.akiota.jp/soshiki/3/19573.html",
-      "prefecture": "広島県",
-      "org": "安芸太田町 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
       "title": "「井原市外国語指導助手派遣業務」公募型プロポーザルの実施について",
       "url": "https://www.city.ibara.okayama.jp/soshiki/33/22038.html",
       "prefecture": "岡山県",
       "org": "井原市 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "【委託候補者を選定しました】新見市放課後児童クラブ運営業務の委託先募集",
-      "url": "https://www.city.niimi.okayama.jp/business/business_detail/index/8168",
-      "prefecture": "岡山県",
-      "org": "新見市 入札情報",
       "category": "その他・委託全般",
       "is_updated": false
     },
@@ -288,118 +168,6 @@
       "prefecture": "岡山県",
       "org": "瀬戸内市 入札情報",
       "category": "IT・DX・システム開発",
-      "is_updated": false
-    },
-    {
-      "title": "【入札公告】建設工事における総合評価方式による一般競争入札（11月13日付）",
-      "url": "https://www.city.maniwa.lg.jp/soshiki/10/124107.html",
-      "prefecture": "岡山県",
-      "org": "真庭市 入札情報",
-      "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
-      "title": "【入札公告】建設工事に係る条件付一般競争入札（11月12日付）",
-      "url": "https://www.city.maniwa.lg.jp/soshiki/10/124104.html",
-      "prefecture": "岡山県",
-      "org": "真庭市 入札情報",
-      "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
-      "title": "【公募型プロポーザル】美作市高齢者福祉施設利活用事業者募集に関するプロポーザルの結果について",
-      "url": "https://www.city.mimasaka.lg.jp/boshu/9029.html",
-      "prefecture": "岡山県",
-      "org": "美作市 入札情報",
-      "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
-      "title": "入札金額の内訳書の記載内容について（令和8年4月以降の入札公告・指名通知分から適用）",
-      "url": "https://www.town.shoo.lg.jp/soshiki/5/7253.html",
-      "prefecture": "岡山県",
-      "org": "勝央町 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "物品・業務委託の競争入札参加資格者名簿を公表します",
-      "url": "https://www.city.yamaguchi.lg.jp/soshiki/7/146288.html",
-      "prefecture": "山口県",
-      "org": "山口市 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "物品・業務委託の競争入札参加資格に関する変更届を提出してください",
-      "url": "https://www.city.yamaguchi.lg.jp/soshiki/7/1166.html",
-      "prefecture": "山口県",
-      "org": "山口市 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "（物品・業務委託）入札参加資格",
-      "url": "https://www.city.yamaguchi.lg.jp/soshiki/7/100567.html",
-      "prefecture": "山口県",
-      "org": "山口市 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "令和７、８、９年度物品・業務委託の競争入札参加資格者名簿を公表します",
-      "url": "https://www.city.yamaguchi.lg.jp/soshiki/7/173112.html",
-      "prefecture": "山口県",
-      "org": "山口市 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "優良業者優先指名競争入札制度を導入しています",
-      "url": "https://www.city.yamaguchi.lg.jp/soshiki/7/118160.html",
-      "prefecture": "山口県",
-      "org": "山口市 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "土木工事に係る設計・調査等業務委託における管理技術者及び照査技術者等の資格要件を定めます",
-      "url": "https://www.city.yamaguchi.lg.jp/soshiki/7/37914.html",
-      "prefecture": "山口県",
-      "org": "山口市 入札情報",
-      "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
-      "title": "12物品調達及び業務委託に関するプロポーザル実施取扱要領（R8.4.1改正）",
-      "url": "https://www.city.yamaguchi.lg.jp/soshiki/7/1227.html",
-      "prefecture": "山口県",
-      "org": "山口市 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "54物品・業務委託等の競争入札参加資格に関する告示",
-      "url": "https://www.city.yamaguchi.lg.jp/soshiki/7/111762.html",
-      "prefecture": "山口県",
-      "org": "山口市 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "13物品・業務委託契約約款等",
-      "url": "https://www.city.yamaguchi.lg.jp/soshiki/7/1226.html",
-      "prefecture": "山口県",
-      "org": "山口市 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "物品・業務委託等の入札・契約結果の公表について",
-      "url": "https://www.city.yamaguchi.lg.jp/soshiki/7/135830.html",
-      "prefecture": "山口県",
-      "org": "山口市 入札情報",
-      "category": "その他・委託全般",
       "is_updated": false
     },
     {
@@ -448,14 +216,6 @@
       "prefecture": "山口県",
       "org": "山陽小野田市 入札情報",
       "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "和木町学校給食センター設計業務に係る公募型プロポーザル（審査結果公表）",
-      "url": "https://www.town.waki.lg.jp/site/kyoiku/9388.html",
-      "prefecture": "山口県",
-      "org": "和木町 入札情報",
-      "category": "建築・設計・土木",
       "is_updated": false
     }
   ]
