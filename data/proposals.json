@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-20 16:18",
-  "total": 30,
+  "updated_at": "2026-11-20 16:49",
+  "total": 171,
   "proposals": [
     {
       "title": "【観光振興課】テレビ番組等を活用した石見銀山観光プロモーション業務にかかる提案競技について",
@@ -27,35 +27,11 @@
       "is_updated": false
     },
     {
-      "title": "プロポーザル（提案競技）",
-      "url": "https://www.city.hamada.shimane.jp/www/genre/1000170010288/index.html",
-      "prefecture": "島根県",
-      "org": "浜田市 入札・調達情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
       "title": "「浜田市障がい福祉計画（第8期）・浜田市障がい児福祉計画（第4期）策定業務委託」事業者選定に係る公募型プロポーザルの実施について",
       "url": "https://www.city.hamada.shimane.jp/www/contents/1780464838132/index.html",
       "prefecture": "島根県",
       "org": "浜田市 入札・調達情報",
       "category": "福祉・医療・健康",
-      "is_updated": false
-    },
-    {
-      "title": "公募型プロポーザル",
-      "url": "https://www.city.masuda.lg.jp/shigoto_sangyo/nyusatsu_keiyaku/kobogataproposal/index.html",
-      "prefecture": "島根県",
-      "org": "益田市 入札・契約情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "プロポーザル方式による発注のお知らせ",
-      "url": "https://www.city.oda.lg.jp/ohda_city/city_organization/25/35/241/12495/",
-      "prefecture": "島根県",
-      "org": "大田市 入札情報",
-      "category": "その他・委託全般",
       "is_updated": false
     },
     {
@@ -91,6 +67,1062 @@
       "is_updated": false
     },
     {
+      "title": "建設業就職イメージアップ動画の作成及び広報業務に関する公募型プロポーザルの実施について",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/kensetsugyoimageupdoga2026.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "広島県介護事業所等及び介護施設等に対するサービス継続支援事業及び障害福祉サービス事業所等に対するサービス継続支援事業事務局業務委託（公募型プロポーザル）",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/kaigoshougaisa-bisu.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "広島県議会国際平和・観光振興特別委員会海外現地調査派遣に係る業務公募型プロポーザルの結果等の公表について",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/r8kokusai.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "令和８年度広島県内大学合同説明会運営業務公募型プロポーザルの実施について",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/r8godosetsumeikai.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "「令和８年度広島県市町国民健康保険骨粗鬆症・骨折予防広報業務」に係る公募型プロポーザルの実施について",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/kotsusoshoushou.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "令和８年度広島県立歴史博物館ナイトミュージアム等企画運営業務公募型プロポーザルの実施について",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/night-rh-r8.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "広島県動物愛護推進員連絡会議事務局及び動物愛護管理普及啓発等業務委託について（公募型プロポーザル・令和８年度）",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/aigo-jimukyoku08.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "令和８年度広島県児童生徒１人１台端末等共同調達に係る公募型プロポーザルについて",
+      "url": "https://www.pref.hiroshima.lg.jp/site/kyouiku/r8kyoudou.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "広島県議会国際平和・観光振興特別委員会海外現地調査派遣に係る業務公募型プロポーザルの結果等の公表について",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/r7kokusai.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "令和７年度「高等学校課題発見・解決学習推進プロジェクト」に係る未来を生き抜くためのエージェンシー育成プログラム委託業務の企画提案の募集（公募型プロポーザル）",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/r7agency-itaku.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "教育・研修・ワークショップ",
+      "is_updated": false
+    },
+    {
+      "title": "広島県動物愛護推進員連絡会議事務局及び動物愛護管理普及啓発等業務委託について（公募型プロポーザル・令和７年度）",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/aigo-jimukyoku07.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "放送用マップ構築に係る仕様作成及び放送事業者のマップ活用支援業務に関する公募型プロポーザルの実施について",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/housou-map.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "令和６年度広島県困難な状況にある女性の相談窓口周知に向けたＷＥＢ広告実施・分析業務に係る企画提案募集【公募型プロポーザル】",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/konnanjosei-propo.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "広島県電子契約システム提供サービスに関する公募型プロポーザルの実施について",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/denshi-keiyaku.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "令和６年度メンタルヘルス対策事業委託業務（公募型プロポーザル）について",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/kensyusoudan-r6.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "広島県地震被害想定調査業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/2024jishinhigaisoutei.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "県産日本酒の海外販路拡大に向けたバイヤー・シェフ等招聘業務に係る企画提案公募について",
+      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/hiroshima-sake.html",
+      "prefecture": "広島県",
+      "org": "広島県 企画提案募集等",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル（再公募）】旧広島商工会議所ビル解体基本計画及び跡地利用方針検討業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1054685.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市ごみ処理施設ごみ計量システム等更新事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1054957.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】国道54号(平和大通り～国道2号間)の歩道上における自転車駐車場整備及び管理運営事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1055074.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島城天守倒壊シミュレーション映像化業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1054670.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島広域公園入口広場等再整備事業（入札・見積り詳細情報）",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1054240.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市障害者相談支援業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1054204.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル（再公募）】公共交通に係る共同経営スキームの検討業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1053840.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】地方独立行政法人広島市立病院機構会計監査人の選定",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1053345.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】圏域特産品の海外向け商談会企画運営等業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1052246.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】デマンド型交通の予約・配車システムの構築等に向けた調査・検討業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1052439.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】中央公園ファミリープールエリア再整備等事業に係る事業者の公募・選定支援業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1052478.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】湯来町「滝パンフレット」制作業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1052163.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】旧広島商工会議所ビル解体基本計画及び跡地利用方針検討業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1052157.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】家庭系プラスチック選別・再商品化等に係る連携事業者募集",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1052345.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】公立保育園における保育業務支援システムの運用に係る通信回線等の運用保守業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1052134.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市医師会運営・安芸市民病院テレビ等レンタルシステム設置運営事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1051654.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】新アリーナ整備に係る検討支援業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1051548.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市医師会運営・安芸市民病院売店運営事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1051650.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】食をテーマにしたイベントと連携した食品ロス削減啓発業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1051604.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】観音地区下水道実施設計業務8－2",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1051565.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度　広島の「食」による観光キャンペーン業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1051551.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】公立大学法人広島市立大学会計監査業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1051420.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島広域公園入口広場等再整備事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1051038.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】エンディングノート作成等業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1051543.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島都心地域における帰宅困難者対応訓練（図上訓練）の企画・運営支援等業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050990.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】フルマラソン大会基本計画策定業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050902.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市双方向サービス基盤構築業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050812.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】原爆ドーム世界遺産登録30周年記念事業実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050804.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】史跡広島城跡等植栽管理計画（第1期）策定その他業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050758.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島城天守の木造復元に向けた基礎地盤及び石垣に関する調査・検討支援業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050751.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度女性の就労環境整備の推進事業実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050701.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】2027年国際園芸博覧会庭園出展業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050540.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市広告付き観光サイン整備及び維持管理等業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050336.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市SNS24時間こども・若者相談窓口事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050161.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度子育て家庭等居場所づくり事業の実施団体を募集します",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050142.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】世界遺産登録30周年記念事業実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049901.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】地域における若者サポート事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050013.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】相生通り等における公共交通利便性向上に向けた道路空間再構築検討支援業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050006.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】湯来地域への観光二次交通確保検討業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049943.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】第13回世界遺産サミット開催支援業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049903.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市地域包括支援センター設置運営業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049878.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】閑散期におけるにぎわい創出事業実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049925.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】企業間連携・スタートアップ支援推進事業実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049829.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】88歳高齢者敬老記念品等贈呈業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049860.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】スタートアップ人材育成事業実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049824.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "教育・研修・ワークショップ",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市消防団活動支援システム導入事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049813.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】放課後児童クラブ昼食提供業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049576.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】MICE施設整備基本計画策定支援業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049489.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】平和文化の普及促進業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049150.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度理工系分野における女性の活躍推進事業実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049267.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度ピースツーリズム周遊イベント等実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049126.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】固定資産台帳整備におけるDXツール更新等業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1050760.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】放課後児童クラブおやつ提供業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047979.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市消防局勤怠管理システム構築及び運用保守業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049090.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度SNS活用プロモーション業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1048941.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】職員のストレスチェック等業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049336.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度広島市業務改善（BPR）支援業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1049232.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】メタバースを活用した企業PR促進事業実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047035.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度広島広域都市圏観光PR動画制作業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1048942.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】文化ホールの在り方の整理・検討に係る支援業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1048878.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】博物館施設の在り方の整理・検討に係る支援業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1048879.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市立児童館施設照明LED化ESCO事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1048459.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市立小学校照明LED化ESCO事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1048032.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市立中学校照明LED化ESCO事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1048036.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市公民館照明LED化ESCO事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1048011.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】区民文化センター・図書館等照明LED化ESCO事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047915.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】平成25年生活扶助基準改定に関する最高裁判決への対応支援業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047916.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島国際会議場大規模改修基本計画策定支援業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047964.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】就労サポート事業及び就労準備支援事業業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047893.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度マイナンバーカード出張申請サポート等に係る企画・運営業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047834.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度高陽地域・白木地域活性化プランの推進に係る地域住民等による自立的・持続的な取組への支援等業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047827.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "まちづくり・地域活性化",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】「プレミアム付商品券発行事業」事務局運営等業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047676.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】瀬戸内4県都市高付加価値観光コンテンツ造成等業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047633.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島広域都市圏産業振興研究会観光振興部会の運営等業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047613.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島広域都市圏ファムツアー実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1048499.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度広島市火葬場残骨灰処理業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047405.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市児童相談所夜間・休日電話相談業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047374.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】しごとの相談カフェiroha運営業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047316.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度広島市高校生短期留学プログラム委託業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047269.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市障害者虐待通報ダイヤル委託業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047191.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】一般国道54号可部跨線橋高架下空間におけるパーク＆ライド用駐車場整備・管理・運営及びまちづくり活動事業",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047232.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "まちづくり・地域活性化",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度事業領域拡大検討アドバイザー派遣実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047028.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】有給長期インターンシップ・就業体験事業運営業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047120.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度生産技術力向上（カイゼン活動）アドバイザー派遣実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047027.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【1月9日企画提案書の修正】【公募型プロポーザル】令和8年度IT導入アドバイザー派遣実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047029.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度省エネ推進アドバイザー派遣実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047030.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和8年度少人数向け訪問型研修実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047031.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "教育・研修・ワークショップ",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】乳児等通園支援事業（こども誰でも通園制度）に係る管理運用業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1046854.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】5歳児健康診査システム導入・運用保守業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1047690.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】販路拡大に向けた商品改良アドバイザー派遣実施業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1046932.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "福山市におけるプロポーザル方式について",
+      "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/keiyaku/171441.html",
+      "prefecture": "広島県",
+      "org": "福山市 入札・契約情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "「東広島市道路附属物等調査業務」に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.higashihiroshima.lg.jp/sangyo/nyusatsu/1/40520.html",
+      "prefecture": "広島県",
+      "org": "東広島市 PFI・プロポーザル",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "東広島市放課後児童クラブ運営業務の委託に係る公募型プロポーザルについて",
+      "url": "https://www.city.higashihiroshima.lg.jp/sangyo/nyusatsu/1/43120.html",
+      "prefecture": "広島県",
+      "org": "東広島市 PFI・プロポーザル",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "自動運転・隊列走行BRT導入検討プロジェクトマネジメント支援業務 公募型プロポーザル",
+      "url": "https://www.city.higashihiroshima.lg.jp/sangyo/nyusatsu/1/43418.html",
+      "prefecture": "広島県",
+      "org": "東広島市 PFI・プロポーザル",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "東広島市契約管理システム構築業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.higashihiroshima.lg.jp/sangyo/nyusatsu/1/45550.html",
+      "prefecture": "広島県",
+      "org": "東広島市 PFI・プロポーザル",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "「東広島市工事成績評定システム及び特記仕様書作成支援システム構築業務」に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.higashihiroshima.lg.jp/sangyo/nyusatsu/1/45828.html",
+      "prefecture": "広島県",
+      "org": "東広島市 PFI・プロポーザル",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "東広島市例規システム構築及び保守管理業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.higashihiroshima.lg.jp/sangyo/nyusatsu/1/46150.html",
+      "prefecture": "広島県",
+      "org": "東広島市 PFI・プロポーザル",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "東広島市入退室管理システム等構築業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.higashihiroshima.lg.jp/sangyo/nyusatsu/1/46188.html",
+      "prefecture": "広島県",
+      "org": "東広島市 PFI・プロポーザル",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "令和8年度東広島市庁用スマートフォン及び電話サービス更新業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.higashihiroshima.lg.jp/sangyo/nyusatsu/1/46365.html",
+      "prefecture": "広島県",
+      "org": "東広島市 PFI・プロポーザル",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "廿⽇市市留守家庭児童会おやつ提供業務委託に関する公募型プロポーザル",
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/35/145062.html",
+      "prefecture": "広島県",
+      "org": "廿日市市 入札・プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "令和8年度廿日市市中学校部活動地域展開に関する業務委託公募型プロポーザル",
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/57/126736.html",
+      "prefecture": "広島県",
+      "org": "廿日市市 入札・プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "廿日市市宮島歴史民俗資料館キャッシュレス決済導入等業務に係る公募型プロポーザルの実施（審査結果の公表）",
+      "url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/143/142174.html",
+      "prefecture": "広島県",
+      "org": "廿日市市 入札・プロポーザル情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "子どもたちと多世代の集いの場整備事業における公募型プロポーザルの実施",
+      "url": "https://www.city.shobara.hiroshima.jp/main/government/keiyaku/cat11/post_1992.html",
+      "prefecture": "広島県",
+      "org": "庄原市 入札・プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "令和８年度庄原市森林境界明確化業務委託における公募型プロポーザルの実施",
+      "url": "https://www.city.shobara.hiroshima.jp/main/government/keiyaku/cat11/post_2020.html",
+      "prefecture": "広島県",
+      "org": "庄原市 入札・プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "庄原市戸籍・戸籍附票システム更改・標準化対応業務委託における公募型プロポーザルの実施",
+      "url": "https://www.city.shobara.hiroshima.jp/main/government/keiyaku/cat11/post_1939.html",
+      "prefecture": "広島県",
+      "org": "庄原市 入札・プロポーザル情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "庄原市ふるさと応援寄付金推進業務における公募型プロポーザルの実施",
+      "url": "https://www.city.shobara.hiroshima.jp/main/government/keiyaku/cat11/post_1938.html",
+      "prefecture": "広島県",
+      "org": "庄原市 入札・プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "岡山県立東岡山工業高等学校　「世界のＴＯＫＯへ！」グローカル国際人材育成事業（教員・生徒対象）業務に係る公募型プロポーザルの公告について",
+      "url": "https://www.pref.okayama.jp/site/321/1066874.html",
+      "prefecture": "岡山県",
+      "org": "岡山県 入札・プロポーザル情報",
+      "category": "教育・研修・ワークショップ",
+      "is_updated": false
+    },
+    {
+      "title": "倉敷市アンテナショップ「クラシキ」店舗運営業務にかかるプロポーザルを実施します。",
+      "url": "https://www.city.kurashiki.okayama.jp/business/contract/1013065/1014314/1027756.html",
+      "prefecture": "岡山県",
+      "org": "倉敷市 入札・プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "Instagramを活用した倉敷観光情報発信業務に係る公募型プロポーザル実施について",
+      "url": "https://www.city.kurashiki.okayama.jp/business/contract/1013065/1014314/1027710.html",
+      "prefecture": "岡山県",
+      "org": "倉敷市 入札・プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "「特産品・観光連携事業」業務にかかるプロポーザルを実施します。",
+      "url": "https://www.city.kurashiki.okayama.jp/business/contract/1013065/1014314/1025961.html",
+      "prefecture": "岡山県",
+      "org": "倉敷市 入札・プロポーザル情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "「倉敷市の魅力発信イベント開催事業」業務にかかるプロポーザルを実施します。",
+      "url": "https://www.city.kurashiki.okayama.jp/business/contract/1013065/1014314/1025501.html",
+      "prefecture": "岡山県",
+      "org": "倉敷市 入札・プロポーザル情報",
+      "category": "観光・文化・イベント",
+      "is_updated": false
+    },
+    {
+      "title": "「デジタルコンテンツ人材育成・拠点整備運営事業」業務委託　公募型プロポーザル",
+      "url": "https://www.city.kurashiki.okayama.jp/business/contract/1013065/1014314/1025974.html",
+      "prefecture": "岡山県",
+      "org": "倉敷市 入札・プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "倉敷市観光デジタルコンテンツ（3D都市モデル×FORTNITE）制作運営業務のプロポーザル結果について",
+      "url": "https://www.city.kurashiki.okayama.jp/business/contract/1013065/1014314/1025918.html",
+      "prefecture": "岡山県",
+      "org": "倉敷市 入札・プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "「高梁川流域地域資源活用推進事業」プロモーション・展示即売会等業務にかかるプロポーザルを実施します。",
+      "url": "https://www.city.kurashiki.okayama.jp/business/contract/1013065/1014314/1018157.html",
+      "prefecture": "岡山県",
+      "org": "倉敷市 入札・プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "外国人相談窓口業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.city.kurashiki.okayama.jp/business/contract/1013065/1014314/1025337.html",
+      "prefecture": "岡山県",
+      "org": "倉敷市 入札・プロポーザル情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
       "title": "「井原市外国語指導助手派遣業務」公募型プロポーザルの実施について",
       "url": "https://www.city.ibara.okayama.jp/soshiki/33/22038.html",
       "prefecture": "岡山県",
@@ -107,19 +1139,115 @@
       "is_updated": false
     },
     {
+      "title": "久米南町放課後児童クラブ運営業務委託公募型プロポーザルの実施について",
+      "url": "https://www.town.kumenan.lg.jp/news/administration/jidoukurabu.html",
+      "prefecture": "岡山県",
+      "org": "久米南町 入札情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "例規管理及び法令・財務実務効率化システムプロポーザルについて",
+      "url": "https://www.town.kumenan.lg.jp/news/industry_business/kumenan_reiki_kanri_propo.html",
+      "prefecture": "岡山県",
+      "org": "久米南町 入札情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "久米南町立保育園業務支援システム導入業務公募型プロポーザルの実施について",
+      "url": "https://www.town.kumenan.lg.jp/news/administration/20260901_hoikuen_puropo.html",
+      "prefecture": "岡山県",
+      "org": "久米南町 入札情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "久米南町新小学校機械警備業務公募型プロポーザルの実施結果について",
+      "url": "https://www.town.kumenan.lg.jp/news/administration/2026shin2_keibi.html",
+      "prefecture": "岡山県",
+      "org": "久米南町 入札情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "令和8年度空家課題解決支援事業プロポーザルについて",
+      "url": "https://www.town.kumenan.lg.jp/news/administration/2026akiyakadai_prop.html",
+      "prefecture": "岡山県",
+      "org": "久米南町 入札情報",
+      "category": "福祉・医療・健康",
+      "is_updated": false
+    },
+    {
+      "title": "「やまぐち未来躍進プラン」インフォメーションボード企画・制作業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.pref.yamaguchi.lg.jp/soshiki/19/369232.html",
+      "prefecture": "山口県",
+      "org": "山口県 入札・調達・売却",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "令和8年度山口県薬物乱用防止啓発動画作成業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.pref.yamaguchi.lg.jp/soshiki/48/365673.html",
+      "prefecture": "山口県",
+      "org": "山口県 入札・調達・売却",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "山口きらら博記念公園体験学習施設・アーバンスポーツ施設コンテンツ導入業務公募型プロポーザルについて質問回答表（2回目）を掲載します。",
+      "url": "https://www.pref.yamaguchi.lg.jp/soshiki/256/362004.html",
+      "prefecture": "山口県",
+      "org": "山口県 入札・調達・売却",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "山口きらら博記念公園体験学習施設・アーバンスポーツ施設コンテンツ導入業務公募型プロポーザルについて質問回答表を掲載します。",
+      "url": "https://www.pref.yamaguchi.lg.jp/soshiki/256/354863.html",
+      "prefecture": "山口県",
+      "org": "山口県 入札・調達・売却",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "山口きらら博記念公園体験学習施設・アーバンスポーツ施設コンテンツ導入業務公募型プロポーザルの実施について",
+      "url": "https://www.pref.yamaguchi.lg.jp/soshiki/256/350625.html",
+      "prefecture": "山口県",
+      "org": "山口県 入札・調達・売却",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "山口県地域公共交通ビジョン策定支援業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.pref.yamaguchi.lg.jp/press/351041.html",
+      "prefecture": "山口県",
+      "org": "山口県 入札・調達・売却",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "プロポーザルガイドライン",
+      "url": "https://www.city.ube.yamaguchi.jp/boshu/boshuu_shigoto/boshu_nyuusatsu/1024709/index.html",
+      "prefecture": "山口県",
+      "org": "宇部市 入札・プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "宇部市石炭記念館デジタルコンテンツ等制作業務委託に係る公募型プロポーザル参加者募集",
+      "url": "https://www.city.ube.yamaguchi.jp/boshu/boshuu_shigoto/boshu_nyuusatsu/1029338.html",
+      "prefecture": "山口県",
+      "org": "宇部市 入札・プロポーザル情報",
+      "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
       "title": "防府市休日診療所オンライン診療体制整備等業務に係る公募型プロポーザルを実施します",
       "url": "https://www.city.hofu.yamaguchi.jp/soshiki/21/online.html",
       "prefecture": "山口県",
       "org": "防府市 入札情報",
       "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
-      "title": "防府市におけるプロポーザルの実施",
-      "url": "https://www.city.hofu.yamaguchi.jp/soshiki/118/hofu-proposal.html",
-      "prefecture": "山口県",
-      "org": "防府市 入札情報",
-      "category": "その他・委託全般",
       "is_updated": false
     },
     {
@@ -195,22 +1323,6 @@
       "is_updated": false
     },
     {
-      "title": "令和9・10・11年度　長門市生活困窮者就労準備支援事業業務委託プロポーザル（公募型）の実施について",
-      "url": "https://www.city.nagato.yamaguchi.jp/soshiki/9/51417.html",
-      "prefecture": "山口県",
-      "org": "長門市 入札情報",
-      "category": "福祉・医療・健康",
-      "is_updated": false
-    },
-    {
-      "title": "プロポーザル情報",
-      "url": "https://www.city.sanyo-onoda.lg.jp/life/8/58/352/",
-      "prefecture": "山口県",
-      "org": "山陽小野田市 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
       "title": "「山陽小野田市水道事業マッピングシステム構築業務委託」（公募型プロポーザル）の実施について（更新）",
       "url": "https://www.city.sanyo-onoda.lg.jp/site/suidou/puropo-zaru-mappingu.html",
       "prefecture": "山口県",
@@ -240,6 +1352,22 @@
       "prefecture": "山口県",
       "org": "山陽小野田市 入札情報",
       "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "入札・プロポーザル・契約",
+      "url": "https://www.town.tabuse.lg.jp/life/4/18/",
+      "prefecture": "山口県",
+      "org": "田布施町 入札情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "NEW! 2026年9月15日8:30 【R8.9.15質問回答】阿武町ホームページリニューアル業務 公募型プロポーザル実施について",
+      "url": "https://www.town.abu.lg.jp/17486/",
+      "prefecture": "山口県",
+      "org": "阿武町 入札情報",
+      "category": "その他・委託全般",
       "is_updated": false
     }
   ]

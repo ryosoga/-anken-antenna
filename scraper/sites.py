@@ -183,7 +183,7 @@ SITES = [
     },
     {
         "name": "琴浦町 入札・契約情報",
-        "url": "https://www.town.kotoura.tottori.jp/bunya/nyusatsu/",
+        "url": "https://www.town.kotoura.tottori.jp/",
         "base_url": "https://www.town.kotoura.tottori.jp",
         "prefecture": "鳥取県（琴浦町）",
         "category": "プロポーザル・入札",
@@ -244,8 +244,8 @@ SITES = [
     # 広島県（県）
     # =====================================================
     {
-        "name": "広島県 入札・プロポーザル情報",
-        "url": "https://www.pref.hiroshima.lg.jp/soshiki/36/",
+        "name": "広島県 企画提案募集等",
+        "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/list945-4046.html",
         "base_url": "https://www.pref.hiroshima.lg.jp",
         "prefecture": "広島県",
         "category": "プロポーザル・入札",
@@ -254,15 +254,15 @@ SITES = [
     # 広島県（市）
     # =====================================================
     {
-        "name": "広島市 入札・契約情報",
-        "url": "https://www.city.hiroshima.lg.jp/site/bid/",
+        "name": "広島市 プロポーザル・コンペ案件",
+        "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/index.html",
         "base_url": "https://www.city.hiroshima.lg.jp",
         "prefecture": "広島県（広島市）",
         "category": "プロポーザル・入札",
     },
     {
-        "name": "福山市 入札・調達情報",
-        "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/8/",
+        "name": "福山市 入札・契約情報",
+        "url": "https://www.city.fukuyama.hiroshima.jp/soshiki/keiyaku/",
         "base_url": "https://www.city.fukuyama.hiroshima.jp",
         "prefecture": "広島県（福山市）",
         "category": "プロポーザル・入札",
@@ -275,8 +275,8 @@ SITES = [
         "category": "プロポーザル・入札",
     },
     {
-        "name": "東広島市 入札情報",
-        "url": "https://www.city.higashihiroshima.lg.jp/soshiki/9/",
+        "name": "東広島市 PFI・プロポーザル",
+        "url": "https://www.city.higashihiroshima.lg.jp/sangyo/nyusatsu/1/index.html",
         "base_url": "https://www.city.higashihiroshima.lg.jp",
         "prefecture": "広島県（東広島市）",
         "category": "プロポーザル・入札",
@@ -289,8 +289,8 @@ SITES = [
         "category": "プロポーザル・入札",
     },
     {
-        "name": "廿日市市 入札情報",
-        "url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/13/",
+        "name": "廿日市市 入札・プロポーザル情報",
+        "url": "https://www.city.hatsukaichi.hiroshima.jp/life/2/19/",
         "base_url": "https://www.city.hatsukaichi.hiroshima.jp",
         "prefecture": "広島県（廿日市市）",
         "category": "プロポーザル・入札",
@@ -310,8 +310,8 @@ SITES = [
         "category": "プロポーザル・入札",
     },
     {
-        "name": "庄原市 入札情報",
-        "url": "https://www.city.shobara.hiroshima.jp/soshiki/4/",
+        "name": "庄原市 入札・プロポーザル情報",
+        "url": "https://www.city.shobara.hiroshima.jp/main/government/keiyaku/cat11/index.html",
         "base_url": "https://www.city.shobara.hiroshima.jp",
         "prefecture": "広島県（庄原市）",
         "category": "プロポーザル・入札",
@@ -323,13 +323,7 @@ SITES = [
         "prefecture": "広島県（大竹市）",
         "category": "プロポーザル・入札",
     },
-    {
-        "name": "竹原市 入札情報",
-        "url": "https://www.city.takehara.hiroshima.jp/",
-        "base_url": "https://www.city.takehara.hiroshima.jp",
-        "prefecture": "広島県（竹原市）",
-        "category": "プロポーザル・入札",
-    },
+    # 竹原市: DNS解決不可のため除外（2026-11時点）
     {
         "name": "府中市 入札情報",
         "url": "https://www.city.fuchu.hiroshima.jp/",
@@ -368,20 +362,8 @@ SITES = [
         "prefecture": "広島県（海田町）",
         "category": "プロポーザル・入札",
     },
-    {
-        "name": "熊野町 入札情報",
-        "url": "https://www.town.kumano.hiroshima.jp/",
-        "base_url": "https://www.town.kumano.hiroshima.jp",
-        "prefecture": "広島県（熊野町）",
-        "category": "プロポーザル・入札",
-    },
-    {
-        "name": "坂町 入札情報",
-        "url": "https://www.town.saka.hiroshima.jp/",
-        "base_url": "https://www.town.saka.hiroshima.jp",
-        "prefecture": "広島県（坂町）",
-        "category": "プロポーザル・入札",
-    },
+    # 熊野町: DNS解決不可のため除外（2026-11時点）
+    # 坂町: DNS解決不可のため除外（2026-11時点）
     {
         "name": "安芸太田町 入札情報",
         "url": "https://www.akiota.jp/",
@@ -420,16 +402,10 @@ SITES = [
     # =====================================================
     # 広島県 準公的機関
     # =====================================================
-    {
-        "name": "広島県産業振興機構 入札・公募情報",
-        "url": "https://www.hiwave.or.jp/about/bid/",
-        "base_url": "https://www.hiwave.or.jp",
-        "prefecture": "広島県（準公的機関）",
-        "category": "プロポーザル・入札",
-    },
+    # 広島県産業振興機構: 入札URLが存在せず補助金情報のみのため除外
     {
         "name": "広島大学 入札・調達情報",
-        "url": "https://www.hiroshima-u.ac.jp/disclosure/bid",
+        "url": "https://www.hiroshima-u.ac.jp/about/contract",
         "base_url": "https://www.hiroshima-u.ac.jp",
         "prefecture": "広島県（準公的機関）",
         "category": "プロポーザル・入札",
@@ -439,7 +415,7 @@ SITES = [
     # =====================================================
     {
         "name": "岡山県 入札・プロポーザル情報",
-        "url": "https://www.pref.okayama.jp/page/detail-91541.html",
+        "url": "https://www.pref.okayama.jp/site/321/",
         "base_url": "https://www.pref.okayama.jp",
         "prefecture": "岡山県",
         "category": "プロポーザル・入札",
@@ -449,14 +425,14 @@ SITES = [
     # =====================================================
     {
         "name": "岡山市 入札・契約情報",
-        "url": "https://www.city.okayama.jp/shisei/0000003990.html",
+        "url": "https://www.city.okayama.jp/jigyosha/category/5-3-0-0-0-0-0-0-0-0.html",
         "base_url": "https://www.city.okayama.jp",
         "prefecture": "岡山県（岡山市）",
         "category": "プロポーザル・入札",
     },
     {
-        "name": "倉敷市 入札情報",
-        "url": "https://www.city.kurashiki.okayama.jp/4854.htm",
+        "name": "倉敷市 入札・プロポーザル情報",
+        "url": "https://www.city.kurashiki.okayama.jp/business/contract/1013065/1014314/",
         "base_url": "https://www.city.kurashiki.okayama.jp",
         "prefecture": "岡山県（倉敷市）",
         "category": "プロポーザル・入札",
@@ -512,8 +488,8 @@ SITES = [
     },
     {
         "name": "備前市 入札情報",
-        "url": "https://www.city.bizen.lg.jp/",
-        "base_url": "https://www.city.bizen.lg.jp",
+        "url": "https://www.city.bizen.okayama.jp/",
+        "base_url": "https://www.city.bizen.okayama.jp",
         "prefecture": "岡山県（備前市）",
         "category": "プロポーザル・入札",
     },
@@ -547,8 +523,8 @@ SITES = [
     },
     {
         "name": "浅口市 入札情報",
-        "url": "https://www.city.asakuchi.okayama.jp/",
-        "base_url": "https://www.city.asakuchi.okayama.jp",
+        "url": "https://www.city.asakuchi.lg.jp/",
+        "base_url": "https://www.city.asakuchi.lg.jp",
         "prefecture": "岡山県（浅口市）",
         "category": "プロポーザル・入札",
     },
@@ -599,8 +575,8 @@ SITES = [
     },
     {
         "name": "久米南町 入札情報",
-        "url": "https://www.town.kumenan.okayama.jp/",
-        "base_url": "https://www.town.kumenan.okayama.jp",
+        "url": "https://www.town.kumenan.lg.jp/",
+        "base_url": "https://www.town.kumenan.lg.jp",
         "prefecture": "岡山県（久米南町）",
         "category": "プロポーザル・入札",
     },
@@ -613,8 +589,8 @@ SITES = [
     },
     {
         "name": "吉備中央町 入札情報",
-        "url": "https://www.town.kibichuo.okayama.jp/",
-        "base_url": "https://www.town.kibichuo.okayama.jp",
+        "url": "https://www.town.kibichuo.lg.jp/",
+        "base_url": "https://www.town.kibichuo.lg.jp",
         "prefecture": "岡山県（吉備中央町）",
         "category": "プロポーザル・入札",
     },
@@ -622,9 +598,9 @@ SITES = [
     # 岡山県 準公的機関
     # =====================================================
     {
-        "name": "岡山大学 入札・契約情報",
-        "url": "https://www.okayama-u.ac.jp/tp/disclosure/bid.html",
-        "base_url": "https://www.okayama-u.ac.jp",
+        "name": "岡山大学 物品・役務等の調達情報",
+        "url": "https://keiyaku.ccsv.okayama-u.ac.jp/",
+        "base_url": "https://keiyaku.ccsv.okayama-u.ac.jp",
         "prefecture": "岡山県（準公的機関）",
         "category": "プロポーザル・入札",
     },
@@ -632,8 +608,8 @@ SITES = [
     # 山口県（県）
     # =====================================================
     {
-        "name": "山口県 入札・プロポーザル情報",
-        "url": "https://www.pref.yamaguchi.lg.jp/cms/a15600/nyusatu-top/",
+        "name": "山口県 入札・調達・売却",
+        "url": "https://www.pref.yamaguchi.lg.jp/soshiki/list8-1.html",
         "base_url": "https://www.pref.yamaguchi.lg.jp",
         "prefecture": "山口県",
         "category": "プロポーザル・入札",
@@ -656,9 +632,9 @@ SITES = [
         "category": "プロポーザル・入札",
     },
     {
-        "name": "宇部市 入札情報",
-        "url": "https://www.ube.lg.jp/contents/gov/div/zaimu/keiyaku/nyusatsu/",
-        "base_url": "https://www.ube.lg.jp",
+        "name": "宇部市 入札・プロポーザル情報",
+        "url": "https://www.city.ube.yamaguchi.jp/boshu/boshuu_shigoto/boshu_nyuusatsu/",
+        "base_url": "https://www.city.ube.yamaguchi.jp",
         "prefecture": "山口県（宇部市）",
         "category": "プロポーザル・入札",
     },
@@ -704,20 +680,8 @@ SITES = [
         "prefecture": "山口県（長門市）",
         "category": "プロポーザル・入札",
     },
-    {
-        "name": "柳井市 入札情報",
-        "url": "https://www.city.yanai.lg.jp/",
-        "base_url": "https://www.city.yanai.lg.jp",
-        "prefecture": "山口県（柳井市）",
-        "category": "プロポーザル・入札",
-    },
-    {
-        "name": "美祢市 入札情報",
-        "url": "https://www.city.mine.lg.jp/",
-        "base_url": "https://www.city.mine.lg.jp",
-        "prefecture": "山口県（美祢市）",
-        "category": "プロポーザル・入札",
-    },
+    # 柳井市: DNS解決不可のため除外（2026-11時点）
+    # 美祢市: DNS解決不可のため除外（2026-11時点）
     {
         "name": "下松市 入札情報",
         "url": "https://www.city.kudamatsu.lg.jp/",
@@ -758,8 +722,8 @@ SITES = [
     },
     {
         "name": "田布施町 入札情報",
-        "url": "https://www.town.tabuse.yamaguchi.jp/",
-        "base_url": "https://www.town.tabuse.yamaguchi.jp",
+        "url": "https://www.town.tabuse.lg.jp/",
+        "base_url": "https://www.town.tabuse.lg.jp",
         "prefecture": "山口県（田布施町）",
         "category": "プロポーザル・入札",
     },
@@ -772,8 +736,8 @@ SITES = [
     },
     {
         "name": "阿武町 入札情報",
-        "url": "https://www.town.abu.yamaguchi.jp/",
-        "base_url": "https://www.town.abu.yamaguchi.jp",
+        "url": "https://www.town.abu.lg.jp/",
+        "base_url": "https://www.town.abu.lg.jp",
         "prefecture": "山口県（阿武町）",
         "category": "プロポーザル・入札",
     },
@@ -782,8 +746,8 @@ SITES = [
     # =====================================================
     {
         "name": "山口大学 入札・調達情報",
-        "url": "https://www.yamaguchi-u.ac.jp/university/9/_1455.html",
-        "base_url": "https://www.yamaguchi-u.ac.jp",
+        "url": "https://ds.cc.yamaguchi-u.ac.jp/~keiyaku/tender.html",
+        "base_url": "https://ds.cc.yamaguchi-u.ac.jp",
         "prefecture": "山口県（準公的機関）",
         "category": "プロポーザル・入札",
     },

@@ -49,6 +49,12 @@ EXCLUDE_PATTERNS = [
     "下水道.*入札公告", "山腹工事", "護岸工事", "舗装工事", "橋梁工事",
     # 指名競争入札（プロポーザルではない）
     "指名競争入札の参加者を募集", "簡易公募型指名競争入札", "公募型指名競争入札",
+    # 中止・廃止案件
+    r"（[0-9]+月[0-9]+日中止）", r"\([0-9]+月[0-9]+日中止\)",
+    "中止しました", "廃止しました",
+    # ナビゲーション・一覧ページリンク（案件ではない）
+    "プロポーザル・コンペの案件情報", "入札発注情報",
+    r".*年度　プロポーザル・コンペ案件$",   # 広島市の年度別一覧ページリンク
     # 募集終了・結果公表済み
     "【審査結果】", "【募集終了】",
     "事業者の決定について", "事業者を選定", "事業者が決定",
@@ -80,6 +86,7 @@ INDEX_PAGE_PATTERNS = [
     r"調達情報$",
     r"企画競争情報$",
     r"企画競争情報（.{1,20}）$",
+    r"PFI・プロポーザル$",
 ]
 
 HEADERS = {
@@ -158,22 +165,26 @@ def scrape_site(site: dict, seen_ids: set, depth: int = 0) -> list[dict]:
 
         if _is_relevant_link(text, full_url):
             seen_ids.add(uid)
-            items.append({
-                "id":         uid,
-                "title":      text,
-                "url":        full_url,
-                "site_name":  site["name"],
-                "prefecture": site["prefecture"],
-                "category":   site["category"],
-            })
+            is_index = _is_index_page(text)
 
-            # 一覧ページと判定したら1段階潜る
-            if depth == 0 and _is_index_page(text):
+            if is_index and depth == 0:
+                # depth=0 の一覧ページ: 自身はitemsに追加せず1段階潜って子案件のみ取得
                 sub_site = {**site, "url": full_url}
                 sub_items = scrape_site(sub_site, seen_ids, depth=1)
                 if sub_items:
                     print(f"      ↳ 一覧ページ深掘り: {len(sub_items)} 件追加")
                 items.extend(sub_items)
+            elif not is_index:
+                # 通常の案件リンク: itemsに追加
+                items.append({
+                    "id":         uid,
+                    "title":      text,
+                    "url":        full_url,
+                    "site_name":  site["name"],
+                    "prefecture": site["prefecture"],
+                    "category":   site["category"],
+                })
+            # is_index && depth >= 1 → ナビ/年度リンクなので追加しない
 
     return items
 
