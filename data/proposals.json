@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-20 17:37",
-  "total": 307,
+  "updated_at": "2026-11-21 14:23",
+  "total": 306,
   "proposals": [
     {
       "title": "【観光振興課】テレビ番組等を活用した石見銀山観光プロモーション業務にかかる提案競技について",
@@ -416,14 +416,6 @@
       "prefecture": "鳥取県",
       "org": "公立鳥取環境大学 入札・公募情報",
       "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "建設業就職イメージアップ動画の作成及び広報業務に関する公募型プロポーザルの実施について",
-      "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/kensetsugyoimageupdoga2026.html",
-      "prefecture": "広島県",
-      "org": "広島県 企画提案募集等",
-      "category": "映像・動画・PR・広報",
       "is_updated": false
     },
     {
@@ -1595,6 +1587,14 @@
       "is_updated": false
     },
     {
+      "title": "岡山県土木部業務支援ＡＩサービス導入・運用業務に係る企画提案の募集について（質問回答更新）",
+      "url": "https://www.pref.okayama.jp/site/321/1062182.html",
+      "prefecture": "岡山県",
+      "org": "岡山県 入札・プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
       "title": "令和9年度岡山市学力アセス業務委託に係る企画競争の実施について",
       "url": "https://www.city.okayama.jp/jigyosha/0000066250.html",
       "prefecture": "岡山県",
@@ -1832,6 +1832,14 @@
       "prefecture": "山口県",
       "org": "山口県 入札・調達・売却",
       "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
+      "title": "（受付終了）山口県モビリティデータ連携基盤構築業務委託に係る公募型プロポーザルの実施について",
+      "url": "https://www.pref.yamaguchi.lg.jp/soshiki/94/345192.html",
+      "prefecture": "山口県",
+      "org": "山口県 入札・調達・売却",
+      "category": "IT・DX・システム開発",
       "is_updated": false
     },
     {
@@ -2123,27 +2131,11 @@
       "is_updated": false
     },
     {
-      "title": "令和8年度下関市奨学金返還支援補助金制度広報業務に係る公募型プロポーザルの実施について",
-      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/164524.html",
-      "prefecture": "山口県",
-      "org": "下関市 入札・プロポーザル情報",
-      "category": "映像・動画・PR・広報",
-      "is_updated": false
-    },
-    {
       "title": "「長府地区土塀ライトアップ整備業務」に係る公募型プロポーザルを実施します。",
       "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/163573.html",
       "prefecture": "山口県",
       "org": "下関市 入札・プロポーザル情報",
       "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
-      "title": "令和9年執行「下関市議会議員一般選挙啓発業務」に係る公募型プロポーザルの実施について",
-      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/164390.html",
-      "prefecture": "山口県",
-      "org": "下関市 入札・プロポーザル情報",
-      "category": "その他・委託全般",
       "is_updated": false
     },
     {
