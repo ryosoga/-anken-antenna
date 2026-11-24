@@ -1,7 +1,23 @@
 {
-  "updated_at": "2026-11-23 14:28",
-  "total": 305,
+  "updated_at": "2026-11-24 17:05",
+  "total": 307,
   "proposals": [
+    {
+      "title": "島根県庁本庁舎受付及び電話交換業務に係る提案競技について",
+      "url": "https://www.pref.shimane.lg.jp/bid_info/bid_kanzai/uketukeoyobidenwakoukan.html",
+      "prefecture": "島根県",
+      "org": "島根県 入札・プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【東部県民センター】自動車税申告受付等業務に係る提案競技について",
+      "url": "https://www.pref.shimane.lg.jp/bid_info/bid_toubu_kemmin/automobile-tax-return.html",
+      "prefecture": "島根県",
+      "org": "島根県 入札・プロポーザル情報",
+      "category": "その他・委託全般",
+      "is_updated": true
+    },
     {
       "title": "【観光振興課】テレビ番組等を活用した石見銀山観光プロモーション業務にかかる提案競技について",
       "url": "https://www.pref.shimane.lg.jp/bid_info/bid_kanko/ginzan_r8pr.html",
@@ -307,6 +323,14 @@
       "is_updated": false
     },
     {
+      "title": "益田市防災情報提供システム整備事業の公募（公募型プロポーザル）について",
+      "url": "https://www.city.masuda.lg.jp/shigoto_sangyo/nyusatsu_keiyaku/kobogataproposal/8447.html",
+      "prefecture": "島根県",
+      "org": "益田市 入札・契約情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
       "title": "江津市文書管理・電子決裁システム導入構築業務委託に係る公募型プロポーザルを実施します",
       "url": "https://www.city.gotsu.lg.jp/soshiki/4/32002.html",
       "prefecture": "島根県",
@@ -352,6 +376,22 @@
       "prefecture": "鳥取県",
       "org": "鳥取県 入札・調達情報",
       "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】令和８年度生成AIを活用したサービス業企業伴走支援等及びサイバーセキュリティ強化支援業務委託プロポーザル",
+      "url": "https://www.pref.tottori.lg.jp/item/1238761.htm#itemid1238761",
+      "prefecture": "鳥取県",
+      "org": "鳥取県 入札・調達情報",
+      "category": "IT・DX・システム開発",
+      "is_updated": false
+    },
+    {
+      "title": "【調達公告】「走行中給電実証実験」に向けたFS調査等業務委託プロポーザル",
+      "url": "https://www.pref.tottori.lg.jp/item/1430652.htm",
+      "prefecture": "鳥取県",
+      "org": "鳥取県 入札・調達情報",
+      "category": "コンサル・調査・研究",
       "is_updated": false
     },
     {
@@ -1571,19 +1611,19 @@
       "is_updated": false
     },
     {
+      "title": "岡山県内公立学校の働き方改革に係る勤務実態分析等委託業務に関する企画提案結果の公表",
+      "url": "https://www.pref.okayama.jp/site/321/1067125.html",
+      "prefecture": "岡山県",
+      "org": "岡山県 入札・プロポーザル情報",
+      "category": "コンサル・調査・研究",
+      "is_updated": false
+    },
+    {
       "title": "岡山県立東岡山工業高等学校　「世界のＴＯＫＯへ！」グローカル国際人材育成事業（教員・生徒対象）業務に係る公募型プロポーザルの公告について",
       "url": "https://www.pref.okayama.jp/site/321/1066874.html",
       "prefecture": "岡山県",
       "org": "岡山県 入札・プロポーザル情報",
       "category": "教育・研修・ワークショップ",
-      "is_updated": false
-    },
-    {
-      "title": "岡山県土木部業務支援ＡＩサービス導入・運用業務に係る企画提案の募集について（質問回答更新）",
-      "url": "https://www.pref.okayama.jp/site/321/1062182.html",
-      "prefecture": "岡山県",
-      "org": "岡山県 入札・プロポーザル情報",
-      "category": "建築・設計・土木",
       "is_updated": false
     },
     {
@@ -1747,14 +1787,6 @@
       "is_updated": false
     },
     {
-      "title": "久米南町放課後児童クラブ運営業務委託公募型プロポーザルの実施について",
-      "url": "https://www.town.kumenan.lg.jp/news/administration/jidoukurabu.html",
-      "prefecture": "岡山県",
-      "org": "久米南町 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
       "title": "例規管理及び法令・財務実務効率化システムプロポーザルについて",
       "url": "https://www.town.kumenan.lg.jp/news/industry_business/kumenan_reiki_kanri_propo.html",
       "prefecture": "岡山県",
@@ -1816,22 +1848,6 @@
       "prefecture": "山口県",
       "org": "山口県 入札・調達・売却",
       "category": "映像・動画・PR・広報",
-      "is_updated": false
-    },
-    {
-      "title": "山口県地域公共交通ビジョン策定支援業務に係る公募型プロポーザルの実施について",
-      "url": "https://www.pref.yamaguchi.lg.jp/press/351041.html",
-      "prefecture": "山口県",
-      "org": "山口県 入札・調達・売却",
-      "category": "コンサル・調査・研究",
-      "is_updated": false
-    },
-    {
-      "title": "（受付終了）山口県モビリティデータ連携基盤構築業務委託に係る公募型プロポーザルの実施について",
-      "url": "https://www.pref.yamaguchi.lg.jp/soshiki/94/345192.html",
-      "prefecture": "山口県",
-      "org": "山口県 入札・調達・売却",
-      "category": "IT・DX・システム開発",
       "is_updated": false
     },
     {
@@ -2219,6 +2235,14 @@
       "is_updated": false
     },
     {
+      "title": "ボートレース徳山公式ホームページリニューアル改修業務委託に係るプロポーザルの実施について",
+      "url": "https://www.city.shunan.lg.jp/soshiki/72/155140.html",
+      "prefecture": "山口県",
+      "org": "周南市 プロポーザル情報",
+      "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
       "title": "周南市公共施設等LED照明設備賃貸借に係る公募型プロポーザルの実施について（令和8年度）",
       "url": "https://www.city.shunan.lg.jp/soshiki/18/152579.html",
       "prefecture": "山口県",
@@ -2384,14 +2408,6 @@
       "prefecture": "山口県",
       "org": "岩国市 プロポーザル情報",
       "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
-      "title": "令和9・10・11年度　長門市生活困窮者自立相談支援事業及び長門市生活困窮者家計改善支援事業業務委託プロポーザル（公募型）の実施について",
-      "url": "https://www.city.nagato.yamaguchi.jp/soshiki/9/51418.html",
-      "prefecture": "山口県",
-      "org": "長門市 入札情報",
-      "category": "福祉・医療・健康",
       "is_updated": false
     },
     {
