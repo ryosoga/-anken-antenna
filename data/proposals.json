@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25 15:43",
-  "total": 305,
+  "updated_at": "2026-11-26 15:35",
+  "total": 304,
   "proposals": [
     {
       "title": "島根県庁本庁舎受付及び電話交換業務に係る提案競技について",
@@ -1715,7 +1715,7 @@
       "is_updated": false
     },
     {
-      "title": "旧里庄清掃工場解体事業に係る調査及び発注支援業務の指名型プロポーザル方式に係る手続き開始について",
+      "title": "旧里庄清掃工場解体事業に係る調査及び発注支援業務の指名型プロポーザル方式に係る手続き開始について（令和8年11月26日更新）",
       "url": "https://www.city.kasaoka.okayama.jp/site/seikan/78444.html",
       "prefecture": "岡山県",
       "org": "笠岡市 入札情報",
@@ -1747,7 +1747,7 @@
       "is_updated": false
     },
     {
-      "title": "瀬戸内市保護者連絡システム導入業務におけるプロポーザル【公示】",
+      "title": "瀬戸内市保護者連絡システム導入業務におけるプロポーザル【質問回答】",
       "url": "https://www.city.setouchi.lg.jp/soshiki/37/163926.html",
       "prefecture": "岡山県",
       "org": "瀬戸内市 入札情報",
@@ -1768,6 +1768,14 @@
       "prefecture": "岡山県",
       "org": "真庭市 入札情報",
       "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "【事業者決定しました】鏡野町放課後児童クラブ運営業務委託　公募型プロポーザルの実施について",
+      "url": "https://www.town.kagamino.lg.jp/soshiki/26/16743.html",
+      "prefecture": "岡山県",
+      "org": "鏡野町 入札情報",
+      "category": "その他・委託全般",
       "is_updated": false
     },
     {
@@ -2123,14 +2131,6 @@
       "is_updated": false
     },
     {
-      "title": "「長府地区土塀ライトアップ整備業務」に係る公募型プロポーザルを実施します。",
-      "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/163573.html",
-      "prefecture": "山口県",
-      "org": "下関市 入札・プロポーザル情報",
-      "category": "建築・設計・土木",
-      "is_updated": false
-    },
-    {
       "title": "下関市ボートレース企業局公営企業会計システム導入業務に係る公募型プロポーザルの実施について",
       "url": "https://www.city.shimonoseki.lg.jp/site/nyuusatu/163786.html",
       "prefecture": "山口県",
@@ -2431,14 +2431,6 @@
       "url": "https://www.town.tabuse.lg.jp/life/4/18/",
       "prefecture": "山口県",
       "org": "田布施町 入札情報",
-      "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "NEW! 2026年9月15日8:30 【R8.9.15質問回答】阿武町ホームページリニューアル業務 公募型プロポーザル実施について",
-      "url": "https://www.town.abu.lg.jp/17486/",
-      "prefecture": "山口県",
-      "org": "阿武町 入札情報",
       "category": "その他・委託全般",
       "is_updated": false
     }
