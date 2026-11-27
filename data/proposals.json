@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-26 15:35",
-  "total": 304,
+  "updated_at": "2026-11-27 15:26",
+  "total": 305,
   "proposals": [
     {
       "title": "島根県庁本庁舎受付及び電話交換業務に係る提案競技について",
@@ -1747,6 +1747,22 @@
       "is_updated": false
     },
     {
+      "title": "邑久小学校・邑久中学校スクールバス運行業務（虫明・長島愛生園線）におけるプロポーザル【質問回答】",
+      "url": "https://www.city.setouchi.lg.jp/soshiki/37/163855.html",
+      "prefecture": "岡山県",
+      "org": "瀬戸内市 入札情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "邑久小学校スクールバス運行業務  (上山田線)におけるプロポーザル【質問回答】",
+      "url": "https://www.city.setouchi.lg.jp/soshiki/37/163743.html",
+      "prefecture": "岡山県",
+      "org": "瀬戸内市 入札情報",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
       "title": "瀬戸内市保護者連絡システム導入業務におけるプロポーザル【質問回答】",
       "url": "https://www.city.setouchi.lg.jp/soshiki/37/163926.html",
       "prefecture": "岡山県",
@@ -1768,6 +1784,14 @@
       "prefecture": "岡山県",
       "org": "真庭市 入札情報",
       "category": "建築・設計・土木",
+      "is_updated": false
+    },
+    {
+      "title": "真庭市脱炭素社会に向けた市民会議等運営業務に係る公募型プロポーザル実施について",
+      "url": "https://www.city.maniwa.lg.jp/soshiki/150/117185.html",
+      "prefecture": "岡山県",
+      "org": "真庭市 入札情報",
+      "category": "その他・委託全般",
       "is_updated": false
     },
     {
@@ -2040,14 +2064,6 @@
       "prefecture": "山口県",
       "org": "山口市 プロポーザル情報",
       "category": "IT・DX・システム開発",
-      "is_updated": false
-    },
-    {
-      "title": "山口ゆめ回廊物産フェア開催業務委託に係る公募型プロポーザルの実施について",
-      "url": "https://www.city.yamaguchi.lg.jp/soshiki/63/99538.html",
-      "prefecture": "山口県",
-      "org": "山口市 プロポーザル情報",
-      "category": "その他・委託全般",
       "is_updated": false
     },
     {
@@ -2368,14 +2384,6 @@
       "prefecture": "山口県",
       "org": "岩国市 プロポーザル情報",
       "category": "その他・委託全般",
-      "is_updated": false
-    },
-    {
-      "title": "岩国市立保育園・幼稚園等のICT導入業務に関する公募型プロポーザルについて",
-      "url": "https://www.city.iwakuni.lg.jp/soshiki/127/105543.html",
-      "prefecture": "山口県",
-      "org": "岩国市 プロポーザル情報",
-      "category": "IT・DX・システム開発",
       "is_updated": false
     },
     {
