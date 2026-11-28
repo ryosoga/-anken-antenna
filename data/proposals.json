@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-27 15:26",
-  "total": 305,
+  "updated_at": "2026-11-28 15:01",
+  "total": 306,
   "proposals": [
     {
       "title": "島根県庁本庁舎受付及び電話交換業務に係る提案競技について",
@@ -543,6 +543,14 @@
       "url": "https://www.pref.hiroshima.lg.jp/site/nyusatsukeiyaku/hiroshima-sake.html",
       "prefecture": "広島県",
       "org": "広島県 企画提案募集等",
+      "category": "その他・委託全般",
+      "is_updated": false
+    },
+    {
+      "title": "【公募型プロポーザル】広島市自転車等放置防止対策業務",
+      "url": "https://www.city.hiroshima.lg.jp/business/nyusatsu/1006046/1006060/1046169/1055458.html",
+      "prefecture": "広島県",
+      "org": "広島市 プロポーザル・コンペ案件",
       "category": "その他・委託全般",
       "is_updated": false
     },
@@ -1275,14 +1283,6 @@
       "is_updated": false
     },
     {
-      "title": "【公募型プロポーザル】生成AIチャットボット機能を搭載したデジタルサイネージの構築・運用業務",
-      "url": "https://www.city.kure.lg.jp/soshiki/67/kure-aichatbot2026.html",
-      "prefecture": "広島県",
-      "org": "呉市 プロポーザル情報",
-      "category": "IT・DX・システム開発",
-      "is_updated": false
-    },
-    {
       "title": "呉市広告付き窓口番号案内表示システム設置及び運用業務に係るプロポーザル実施のお知らせ",
       "url": "https://www.city.kure.lg.jp/soshiki/54/hakkenki20261009.html",
       "prefecture": "広島県",
@@ -1611,16 +1611,16 @@
       "is_updated": false
     },
     {
-      "title": "令和9年度岡山市学力アセス業務委託に係る企画競争の実施について",
-      "url": "https://www.city.okayama.jp/jigyosha/0000066250.html",
+      "title": "岡山市立放課後児童クラブ利用料等債権回収等業務に係る企画競争の実施について",
+      "url": "https://www.city.okayama.jp/jigyosha/0000086832.html",
       "prefecture": "岡山県",
       "org": "岡山市 企画競争情報",
       "category": "その他・委託全般",
       "is_updated": false
     },
     {
-      "title": "岡山市立放課後児童クラブ利用料等債権回収等業務に係る企画競争の実施について",
-      "url": "https://www.city.okayama.jp/jigyosha/0000086832.html",
+      "title": "令和9年度岡山市学力アセス業務委託に係る企画競争の実施について",
+      "url": "https://www.city.okayama.jp/jigyosha/0000066250.html",
       "prefecture": "岡山県",
       "org": "岡山市 企画競争情報",
       "category": "その他・委託全般",
@@ -1864,6 +1864,14 @@
       "prefecture": "山口県",
       "org": "山口県 入札・調達・売却",
       "category": "映像・動画・PR・広報",
+      "is_updated": false
+    },
+    {
+      "title": "山口県地域公共交通ビジョン策定支援業務に係る公募型プロポーザルの実施について",
+      "url": "https://www.pref.yamaguchi.lg.jp/press/351041.html",
+      "prefecture": "山口県",
+      "org": "山口県 入札・調達・売却",
+      "category": "コンサル・調査・研究",
       "is_updated": false
     },
     {
